@@ -8,19 +8,22 @@ def get_limits(path):
     lines=excel.readlines()
     for line in lines:
         columns = line.split(',')
-        dict_topic_limits[columns[0].strip('[""""]')]={"Lower_limit":int(columns[1].strip()),"Upper_limit":int(columns[2].strip())}
+        dict_topic_limits[columns[1].strip('[""""]')]={"assessment":columns[0].strip(),"Lower_limit":int(columns[2].strip()),"Upper_limit":int(columns[3].strip())}
     return dict_topic_limits
 
-def check_limits(topic_count,dict_topic_limits):
+def check_limits(topic_floor,topic_decimal,dict_topic_limits):
     print(dict_topic_limits)
     limit_fails=[]
-    for key in topic_count:
-        if (topic_count[key] < dict_topic_limits[key]["Lower_limit"]):
+    for key in topic_floor:
+        if (topic_floor[key] < dict_topic_limits[key]["Lower_limit"]):
             limit_fails.append(key)
-            for i in range (len(limit_fails)):
-                print("TEST CANNOT BE CREATED because"+str(limit_fails[i])+"have questions less than lower limit")
-        elif(topic_count[key>dict_topic_limits[key]["Upper_limit"]]):
+            print("TEST CANNOT BE CREATED because following topics have questions less than lower limit \n"+str(limit_fails))
+        elif(topic_floor[key]>dict_topic_limits[key]["Upper_limit"]):
                 print("running")
+                topic_floor[key]=dict_topic_limits[key]["Upper_limit"]
+                topic_decimal[key]=0.00
+        
+    return topic_floor,topic_decimal
 
 def get_question_bank(path):
     excel = open(path,"r")
@@ -85,7 +88,7 @@ def brahmastra(topic_decimal, topic_floor):
         topic_floor[topic] = topic_floor[topic] + 1 
         topic_decimal[topic] = 0 if topic_floor[topic] - 1 < 0 else topic_floor[topic] - 1 
         count+=1
-    return topic_decimal,topic_count
+    return topic_decimal,topic_floor
 
 def export_question(fw,test_count,question_bank,topic_question_distribution):
     for topic in topic_question_distribution:
@@ -105,21 +108,20 @@ def export_question(fw,test_count,question_bank,topic_question_distribution):
 
 assessment_areas = ["Logical Reasoning/ Data Interpretation","Verbal Ability","Quantitative Aptitude"]
 # question_bank = get_question_bank("C:/Users/hp/Desktop/MyCodes/python codes/test_maker/QB.csv")
-# topic_limits=get_limits("C:/Users/hp/Desktop/MyCodes/python codes/test_maker/limits.csv")
+topic_limits=get_limits("C:/Users/hp/Desktop/MyCodes/python codes/test_maker/limitss.csv")
 question_bank = get_question_bank("QB.csv")
-# topic_limits = get_limits
 input_question_distribution = { assessment_areas[0]: 15, assessment_areas[1] : 30,assessment_areas[2]: 20}
 decimal_bucket={assessment_areas[0]:{}, assessment_areas[1]:{ }, assessment_areas[2]:{},}
-
+floor={}
 test_count = 0
 fw = open("Export"+str(time.time()),"w")
 fw.write(str("Test")+str(test_count)+"\n")
 for assessment in input_question_distribution :
     test_count+=1
     total_questions = input_question_distribution[assessment]
-    topic_count = get_topic_count(question_bank,assessment)
-    # check_limits(topic_count,topic_limits)
-    topic_question_distribution,decimal_bucket[assessment] = stats(topic_count,total_questions,decimal_bucket[assessment])
+    topic_floor = get_topic_count(question_bank,assessment)
+    topic_question_distribution,decimal_bucket[assessment] = stats(topic_floor,total_questions,decimal_bucket[assessment])
+    check_limits(topic_floor,topic_limits)
     decimal_bucket[assessment],topic_question_distribution = brahmastra(decimal_bucket[assessment],topic_question_distribution)
     export_question(fw,test_count,question_bank,topic_question_distribution)
     print_dict(decimal_bucket)
