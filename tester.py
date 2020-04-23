@@ -1,7 +1,6 @@
-from bs4 import BeautifulSoup
-import xlwt
 import csv
 import math
+import time
 
 def get_limits(path):
     excel = open(path,"r")
@@ -27,8 +26,6 @@ def get_question_bank(path):
     excel = open(path,"r")
     # reader = csv.reader(excel, delimiter=',')
     array_question_bank = []
-    topic=[]
-    dict_topic_count = {}
     lines = excel.readlines()
     for line in lines:     
         columns = line.split(',')
@@ -65,7 +62,6 @@ def stats(dict_topic_count,total_questions,dict_topic_decimal):
             dict_topic_decimal[i] = decimal_value + dict_topic_decimal[i]
         else:
             dict_topic_decimal[i] = decimal_value
-    #print_dict(dict_topic_count)
     return dict_topic_count,dict_topic_decimal
 
 def print_dict(dict):
@@ -91,22 +87,42 @@ def brahmastra(topic_decimal, topic_floor):
         count+=1
     return topic_decimal,topic_count
 
-def export_question():
-    print()
+def export_question(fw,test_count,question_bank,topic_question_distribution):
+    for topic in topic_question_distribution:
+        question_count = topic_question_distribution[topic] 
+        for i in range(0,question_count):
+            for question in question_bank:    
+                if(question["topic"]==topic):
+                    fw.write(str(question["QID"])+","+str(topic)+"\n")
+                    print(str(question["QID"])+","+str(topic)+"\n")
+                    question_bank.remove(question)
+                    topic_question_distribution[topic] = topic_question_distribution[topic] - 1    
+                    break
+                
+
+    
 
 
 assessment_areas = ["Logical Reasoning/ Data Interpretation","Verbal Ability","Quantitative Aptitude"]
-question_bank = get_question_bank("C:/Users/hp/Desktop/MyCodes/python codes/test_maker/QB.csv")
-topic_limits=get_limits("C:/Users/hp/Desktop/MyCodes/python codes/test_maker/limits.csv")
-question_distribution = { assessment_areas[0]: 15, assessment_areas[1] : 30,assessment_areas[2]: 20}
+# question_bank = get_question_bank("C:/Users/hp/Desktop/MyCodes/python codes/test_maker/QB.csv")
+# topic_limits=get_limits("C:/Users/hp/Desktop/MyCodes/python codes/test_maker/limits.csv")
+question_bank = get_question_bank("QB.csv")
+# topic_limits = get_limits
+input_question_distribution = { assessment_areas[0]: 15, assessment_areas[1] : 30,assessment_areas[2]: 20}
 decimal_bucket={assessment_areas[0]:{}, assessment_areas[1]:{ }, assessment_areas[2]:{},}
 
-for assessment in question_distribution :
-    
-    total_questions = question_distribution[assessment]
+test_count = 0
+fw = open("Export"+str(time.time()),"w")
+fw.write(str("Test")+str(test_count)+"\n")
+for assessment in input_question_distribution :
+    test_count+=1
+    total_questions = input_question_distribution[assessment]
     topic_count = get_topic_count(question_bank,assessment)
     # check_limits(topic_count,topic_limits)
     topic_question_distribution,decimal_bucket[assessment] = stats(topic_count,total_questions,decimal_bucket[assessment])
     decimal_bucket[assessment],topic_question_distribution = brahmastra(decimal_bucket[assessment],topic_question_distribution)
+    export_question(fw,test_count,question_bank,topic_question_distribution)
     print_dict(decimal_bucket)
     print_dict(topic_question_distribution)
+
+fw.close()
