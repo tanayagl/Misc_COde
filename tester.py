@@ -2,6 +2,7 @@ import csv
 import math
 import time
 
+
 def get_limits(path):
     excel = open(path,"r")
     dict_topic_limits ={}
@@ -24,6 +25,8 @@ def check_limits(topic_floor,topic_decimal,dict_topic_limits):
                 topic_decimal[key]=0.00
     return topic_floor,topic_decimal
 
+# Function to take path of the file as input and export array of question bank
+# with headers as tags
 def get_question_bank(path):
     excel = open(path,"r")
     # reader = csv.reader(excel, delimiter=',')
@@ -50,7 +53,7 @@ def get_child_count(array_question_bank,parent_list,qb_parent_header,qb_child_he
         dict_parent_child_count[parent] = dict_child_count
     return dict_parent_child_count
     
-# extract question, calc ratio, total ques
+# extract question, calc ratio, total ques and return the Decimal and Integer values
 def stats(dict_topic_count,total_questions):
     topic_decimal = {}
     topic_floor = dict_topic_count.copy()
@@ -66,11 +69,13 @@ def stats(dict_topic_count,total_questions):
         topic_decimal[topic] = decimal_value
     return topic_floor,topic_decimal
 
+
 def print_dict(dict):
     for i in dict:
         print(i,dict[i])
     print("\n")
 
+# Function to Update the Global Decimal Bucket
 def update_decimal_bucket(topic_decimal,assessment):
     if(assessment not in decimal_bucket):
         decimal_bucket[assessment] = {}
@@ -81,6 +86,8 @@ def update_decimal_bucket(topic_decimal,assessment):
         decimal_bucket[assessment] = topic_decimal.copy()
     return decimal_bucket
 
+# Function takes the list of topic to be distributed, total questions to be distributed
+# stats of each topic
 def brahmastra(topic_decimal, topic_floor,assessment,total_questions):
     decimal_bucket = update_decimal_bucket(topic_decimal,assessment) 
     topic_question_distribution = topic_floor.copy()
@@ -96,6 +103,9 @@ def brahmastra(topic_decimal, topic_floor,assessment,total_questions):
         count+=1
     return topic_question_distribution
     
+# Takes the instance of the file to be written
+# List of topic and number of questions to be distributed
+# The topic header in the question bank which contains the objects in the list
 def export_question(fw,question_distribution,qb_header):
     for topic in question_distribution:
         question_count = question_distribution[topic] 
@@ -121,7 +131,7 @@ assessment_areas = ["Logical Reasoning/ Data Interpretation","Verbal Ability","Q
 input_question_distribution = { assessment_areas[0]: 15, assessment_areas[1] : 30,assessment_areas[2]: 20}
 status = -1
 test_count = 0
-fw = open("Export"+str(time.time()),"w")
+fw = open("Export"+str(time.time())+".csv","w")
 topic_question_distribution = {}
 topic_floor = {}
 topic_decimal = {}
@@ -132,24 +142,30 @@ dict_topic_st_count = {}
 st_question_distribution = {}
 dict_parent_child_count = {}
 
+
 question_bank = get_question_bank("QB.csv")
 dict_assessment_topic_count = get_child_count(question_bank,input_question_distribution.keys(),"assessment","topic")
+# Traversing and calculating pre data assesment wise
 for assessment in input_question_distribution :
     dict_topic_st_count[assessment] = get_child_count(question_bank,dict_assessment_topic_count[assessment].keys(),"topic","tag")
     total_questions = input_question_distribution[assessment]
     topic_floor[assessment],topic_decimal[assessment] = stats(dict_assessment_topic_count[assessment],total_questions)
+
+# Creation of Test till there are questions in the question bank
 while(1==1):
     fw.write(str("Test")+str(test_count)+"\n")
     test_count+=1
     for assessment in input_question_distribution:
         total_questions = input_question_distribution[assessment]
+        # Topic wise question distribution
         topic_question_distribution[assessment] = brahmastra(topic_decimal[assessment],topic_floor[assessment],assessment,total_questions)
+        # Iterating Topic List to get Tag Distribution
         for topic in topic_question_distribution[assessment]:
+            # Calculating stats for Tags, for a given topic
             st_floor[topic],st_decimal[topic] = stats(dict_topic_st_count[assessment][topic],topic_question_distribution[assessment][topic])
             st_question_distribution[topic] = brahmastra(st_decimal[topic],st_floor[topic],topic,topic_question_distribution[assessment][topic])
             status = export_question(fw,st_question_distribution[topic],"tag")
-        # print_dict(decimal_bucket)
-        # print_dict(topic_question_distribution)
+        # Condition to break loop if no more tests can be created
         if status==-1:
             break
     if(status ==-1):
