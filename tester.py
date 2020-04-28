@@ -1,7 +1,7 @@
 import csv
 import math
 import time
-
+import sys
 
 def get_limits(path):
     excel = open(path,"r")
@@ -12,21 +12,42 @@ def get_limits(path):
         dict_topic_limits[columns[1].strip('[""""]')]={"assessment":columns[0].strip(),"Lower_limit":int(columns[2].strip()),"Upper_limit":int(columns[3].strip())}
     return dict_topic_limits
 
-def check_limits(topic_floor,topic_decimal,dict_topic_limits):
+def check_limits(topic_floor,dict_topic_limits):
     print(dict_topic_limits)
     limit_fails=[]
+    cross_limit={}
     for key in topic_floor:
         if (topic_floor[key] < dict_topic_limits[key]["Lower_limit"]):
             limit_fails.append(key)
             print("TEST CANNOT BE CREATED because following topics have questions less than lower limit \n"+str(limit_fails))
-        elif(topic_floor[key]>dict_topic_limits[key]["Upper_limit"]):
+            return -1,cross_limit,topic_decimal
+        elif(topic_floor[key]>=dict_topic_limits[key]["Upper_limit"]):
                 print("running")
-                topic_floor[key]=dict_topic_limits[key]["Upper_limit"]
-                topic_decimal[key]=0.00
-    return topic_floor,topic_decimal
+                cross_limit= {key:topic_floor[key]}
+                #topic_floor[key]=dict_topic_limits[key]["Upper_limit"]
+    return 0,cross_limit
 
-# Function to take path of the file as input and export array of question bank
-# with headers as tags
+def max_limit_reached_stats(cross_limit,topic_floor,topic_decimal,topic_limits,total_questions,dict_topic_count):
+    update_limit = topic_floor.copy()
+    update_question_count = 0
+    for key in update_limit:
+        for topic in cross_limit:
+                if not update_limit[key]==cross_limit[topic]:
+                    update_question_count = update_question_count + dict_topic_count[key]
+                else :
+                     total_questions = total_questions - topic_limits[topic]["Upper_limit"]
+    ratio = 0.00
+    for topic in update_limit:
+        ratio = 0.00 if update_question_count==0 else update_limit[topic]*total_questions/update_question_count
+        decimal_value = float(str(ratio-int(ratio))[1:])
+        floor = math.floor(ratio)
+        update_limit[topic] = floor
+        topic_decimal[topic] = decimal_value
+    for topic in cross_limit:
+        update_limit[topic] = topic_limits[topic]["Upper_limit"]
+        topic_decimal[topic] = 0.00
+    return update_limit,topic_decimal
+
 def get_question_bank(path):
     excel = open(path,"r")
     # reader = csv.reader(excel, delimiter=',')
@@ -53,7 +74,7 @@ def get_child_count(array_question_bank,parent_list,qb_parent_header,qb_child_he
         dict_parent_child_count[parent] = dict_child_count
     return dict_parent_child_count
     
-# extract question, calc ratio, total ques and return the Decimal and Integer values
+# extract question, calc ratio, total ques
 def stats(dict_topic_count,total_questions):
     topic_decimal = {}
     topic_floor = dict_topic_count.copy()
@@ -69,13 +90,11 @@ def stats(dict_topic_count,total_questions):
         topic_decimal[topic] = decimal_value
     return topic_floor,topic_decimal
 
-
 def print_dict(dict):
     for i in dict:
         print(i,dict[i])
     print("\n")
 
-# Function to Update the Global Decimal Bucket
 def update_decimal_bucket(topic_decimal,assessment):
     if(assessment not in decimal_bucket):
         decimal_bucket[assessment] = {}
@@ -86,8 +105,6 @@ def update_decimal_bucket(topic_decimal,assessment):
         decimal_bucket[assessment] = topic_decimal.copy()
     return decimal_bucket
 
-# Function takes the list of topic to be distributed, total questions to be distributed
-# stats of each topic
 def brahmastra(topic_decimal, topic_floor,assessment,total_questions):
     decimal_bucket = update_decimal_bucket(topic_decimal,assessment) 
     topic_question_distribution = topic_floor.copy()
@@ -103,9 +120,6 @@ def brahmastra(topic_decimal, topic_floor,assessment,total_questions):
         count+=1
     return topic_question_distribution
     
-# Takes the instance of the file to be written
-# List of topic and number of questions to be distributed
-# The topic header in the question bank which contains the objects in the list
 def export_question(fw,question_distribution,qb_header):
     for topic in question_distribution:
         question_count = question_distribution[topic] 
@@ -125,13 +139,13 @@ def export_question(fw,question_distribution,qb_header):
                 
 assessment_areas = ["Logical Reasoning/ Data Interpretation","Verbal Ability","Quantitative Aptitude"]
 # question_bank = get_question_bank("C:/Users/hp/Desktop/MyCodes/python codes/test_maker/QB.csv")
-# topic_limits=get_limits("C:/Users/hp/Desktop/MyCodes/python codes/test_maker/limits.csv")
+topic_limits=get_limits("C:/Users/hp/Desktop/MyCodes/python codes/test_maker/limitss.csv")
 
-# topic_limits = get_limits
 input_question_distribution = { assessment_areas[0]: 15, assessment_areas[1] : 30,assessment_areas[2]: 20}
 status = -1
 test_count = 0
-fw = open("Export"+str(time.time())+".csv","w")
+Filename = "Export"+str(time.time()) 
+fw = open(Filename,"w")
 topic_question_distribution = {}
 topic_floor = {}
 topic_decimal = {}
@@ -145,30 +159,30 @@ dict_parent_child_count = {}
 
 question_bank = get_question_bank("QB.csv")
 dict_assessment_topic_count = get_child_count(question_bank,input_question_distribution.keys(),"assessment","topic")
-# Traversing and calculating pre data assesment wise
 for assessment in input_question_distribution :
     dict_topic_st_count[assessment] = get_child_count(question_bank,dict_assessment_topic_count[assessment].keys(),"topic","tag")
     total_questions = input_question_distribution[assessment]
     topic_floor[assessment],topic_decimal[assessment] = stats(dict_assessment_topic_count[assessment],total_questions)
-
-# Creation of Test till there are questions in the question bank
-while(1==1):
-    fw.write(str("Test")+str(test_count)+"\n")
-    test_count+=1
-    for assessment in input_question_distribution:
-        total_questions = input_question_distribution[assessment]
-        # Topic wise question distribution
-        topic_question_distribution[assessment] = brahmastra(topic_decimal[assessment],topic_floor[assessment],assessment,total_questions)
-        # Iterating Topic List to get Tag Distribution
-        for topic in topic_question_distribution[assessment]:
-            # Calculating stats for Tags, for a given topic
-            st_floor[topic],st_decimal[topic] = stats(dict_topic_st_count[assessment][topic],topic_question_distribution[assessment][topic])
-            st_question_distribution[topic] = brahmastra(st_decimal[topic],st_floor[topic],topic,topic_question_distribution[assessment][topic])
-            status = export_question(fw,st_question_distribution[topic],"tag")
-        # Condition to break loop if no more tests can be created
-        if status==-1:
-            break
-    if(status ==-1):
-        print("Test Distributed. Test Excel")
+    status,cross_limit = check_limits(topic_floor[assessment],topic_limits)
+    topic_floor[assessment],topic_decimal[assessment] = max_limit_reached_stats(cross_limit,topic_floor[assessment],topic_decimal[assessment],topic_limits,total_questions,dict_topic_st_count[assessment])
+    if not status == 0:
         break
+if status == 0:
+    while(1==1):
+        fw.write(str("Test")+str(test_count)+"\n")
+        test_count+=1
+        for assessment in input_question_distribution:
+            total_questions = input_question_distribution[assessment]
+            topic_question_distribution[assessment] = brahmastra(topic_decimal[assessment],topic_floor[assessment],assessment,total_questions)
+            for topic in topic_question_distribution[assessment]:
+                st_floor[topic],st_decimal[topic] = stats(dict_topic_st_count[assessment][topic],topic_question_distribution[assessment][topic])
+                st_question_distribution[topic] = brahmastra(st_decimal[topic],st_floor[topic],topic,topic_question_distribution[assessment][topic])
+                status = export_question(fw,st_question_distribution[topic],"tag")
+            if status==-1:
+                break
+        if(status ==-1):
+            print("Test Distributed. Test "+Filename)
+            break
+else:
+    print("Test cannot be Distributed. Question less than lower limit")
 fw.close()
