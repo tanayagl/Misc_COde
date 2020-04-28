@@ -12,33 +12,46 @@ def get_limits(path):
         dict_topic_limits[columns[1].strip('[""""]')]={"assessment":columns[0].strip(),"Lower_limit":int(columns[2].strip()),"Upper_limit":int(columns[3].strip())}
     return dict_topic_limits
 
-def check_limits(topic_floor,dict_topic_limits):
+def check_limits(topic_floor,topic_decimal,dict_topic_limits,total_questions,dict_topic_count):
     print(dict_topic_limits)
     limit_fails=[]
     cross_limit={}
-    for key in topic_floor:
+    for key in dict_topic_count:
         if (topic_floor[key] < dict_topic_limits[key]["Lower_limit"]):
             limit_fails.append(key)
             print("TEST CANNOT BE CREATED because following topics have questions less than lower limit \n"+str(limit_fails))
             return -1,cross_limit,topic_decimal
         elif(topic_floor[key]>=dict_topic_limits[key]["Upper_limit"]):
                 print("running")
-                cross_limit= {key:topic_floor[key]}
+                cross_limit[key]= topic_floor[key]
                 #topic_floor[key]=dict_topic_limits[key]["Upper_limit"]
-    return 0,cross_limit
+    if bool(cross_limit):
+        topic_floor,topic_decimal = max_limit_reached_stats(cross_limit,topic_floor,topic_decimal,topic_limits,total_questions,dict_topic_count)
+    return 0,topic_floor,topic_decimal
 
 def max_limit_reached_stats(cross_limit,topic_floor,topic_decimal,topic_limits,total_questions,dict_topic_count):
     update_limit = topic_floor.copy()
     update_question_count = 0
-    for key in update_limit:
-        for topic in cross_limit:
-                if not update_limit[key]==cross_limit[topic]:
-                    update_question_count = update_question_count + dict_topic_count[key]
-                else :
-                     total_questions = total_questions - topic_limits[topic]["Upper_limit"]
+    updated_sum_tag = {}
+    updated_topic_count = dict_topic_count.copy()
+    for topic in cross_limit:
+        updated_topic_count.pop(topic)
+        total_questions = total_questions - topic_limits[topic]["Upper_limit"]
+    #for topic in updated_topic_count:
+    #    updated_sum_tag[topic] = sum(dict_topic_count[topic].values())
+    # for topic in update_limit:
+    #     for tag in dict_topic_count[topic]:
+    #         if topic in updated_sum_tag:
+    #             updated_sum_tag[topic] = updated_sum_tag[topic] + dict_topic_count[topic][tag]
+    #         else:
+    #             updated_sum_tag[topic] =dict_topic_count[topic][tag]
+    update_question_count = sum(updated_topic_count.values())
+    # for topic in cross_limit:
+    #     update_question_count = update_question_count - updated_sum_tag[topic]
+    #     total_questions = total_questions - topic_limits[topic]["Upper_limit"] 
     ratio = 0.00
-    for topic in update_limit:
-        ratio = 0.00 if update_question_count==0 else update_limit[topic]*total_questions/update_question_count
+    for topic in updated_topic_count:
+        ratio = 0.00 if update_question_count==0 else updated_topic_count[topic]*total_questions/update_question_count
         decimal_value = float(str(ratio-int(ratio))[1:])
         floor = math.floor(ratio)
         update_limit[topic] = floor
@@ -46,6 +59,10 @@ def max_limit_reached_stats(cross_limit,topic_floor,topic_decimal,topic_limits,t
     for topic in cross_limit:
         update_limit[topic] = topic_limits[topic]["Upper_limit"]
         topic_decimal[topic] = 0.00
+    if(bool(updated_topic_count)):
+        status,update_limit,topic_decimal = check_limits(update_limit,topic_decimal,topic_limits,total_questions,updated_topic_count)
+    if(not total_questions == 0):
+        print("Humse na ho paaye")
     return update_limit,topic_decimal
 
 def get_question_bank(path):
@@ -163,8 +180,7 @@ for assessment in input_question_distribution :
     dict_topic_st_count[assessment] = get_child_count(question_bank,dict_assessment_topic_count[assessment].keys(),"topic","tag")
     total_questions = input_question_distribution[assessment]
     topic_floor[assessment],topic_decimal[assessment] = stats(dict_assessment_topic_count[assessment],total_questions)
-    status,cross_limit = check_limits(topic_floor[assessment],topic_limits)
-    topic_floor[assessment],topic_decimal[assessment] = max_limit_reached_stats(cross_limit,topic_floor[assessment],topic_decimal[assessment],topic_limits,total_questions,dict_topic_st_count[assessment])
+    status,topic_floor[assessment],topic_decimal[assessment] = check_limits(topic_floor[assessment],topic_decimal[assessment],topic_limits,total_questions,dict_assessment_topic_count[assessment])
     if not status == 0:
         break
 if status == 0:
