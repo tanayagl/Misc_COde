@@ -1,0 +1,630 @@
+Test0
+QID543,number-series
+QID2790,series
+QID2791,series
+QID617,analogies
+QID3005,analogy
+QID678,statement-and-assumption
+QID679,statement-and-assumption
+QID680,statement-and-assumption
+QID952,Verbal classification
+QID1010,Statement and conclusion
+QID1279,Essential part
+QID1597,Statement and argument
+QID1598,Statement and argument
+QID1160,Logical deduction
+QID1355,Logical problems
+QID1439,course of action
+QID1440,course of action
+QID2646,blood-relation-test
+QID2695,data-sufficiency
+QID2965,direction-sense-test
+Test1
+QID544,number-series
+QID2792,series
+QID2793,series
+QID618,analogies
+QID3006,analogy
+QID681,statement-and-assumption
+QID682,statement-and-assumption
+QID683,statement-and-assumption
+QID1011,Statement and conclusion
+QID1012,Statement and conclusion
+QID1411,analyzing agruments
+QID1599,Statement and argument
+QID1600,Statement and argument
+QID1130,Cause and effect
+QID1161,Logical deduction
+QID1356,Logical problems
+QID1441,course of action
+QID2614,syllogism
+QID2647,blood-relation-test
+QID2696,data-sufficiency
+Test2
+QID545,number-series
+QID2794,series
+QID2795,series
+QID619,analogies
+QID3007,analogy
+QID684,statement-and-assumption
+QID685,statement-and-assumption
+QID686,statement-and-assumption
+QID953,Verbal classification
+QID1013,Statement and conclusion
+QID1280,Essential part
+QID1601,Statement and argument
+QID1602,Statement and argument
+QID1162,Logical deduction
+QID1163,Logical deduction
+QID1442,course of action
+QID1443,course of action
+QID1321,Artificial language
+QID2697,data-sufficiency
+QID2966,direction-sense-test
+Test3
+QID546,number-series
+QID2796,series
+QID2797,series
+QID2384,verbal-analogies
+QID3008,analogy
+QID687,statement-and-assumption
+QID688,statement-and-assumption
+QID689,statement-and-assumption
+QID690,statement-and-assumption
+QID1014,Statement and conclusion
+QID1015,Statement and conclusion
+QID1579,theme detection
+QID1603,Statement and argument
+QID1131,Cause and effect
+QID1164,Logical deduction
+QID1357,Logical problems
+QID1444,course of action
+QID2615,syllogism
+QID2648,blood-relation-test
+QID2698,data-sufficiency
+Test4
+QID547,number-series
+QID2798,series
+QID2799,series
+QID620,analogies
+QID3009,analogy
+QID691,statement-and-assumption
+QID692,statement-and-assumption
+QID693,statement-and-assumption
+QID1016,Statement and conclusion
+QID1281,Essential part
+QID1412,analyzing agruments
+QID1604,Statement and argument
+QID1605,Statement and argument
+QID1165,Logical deduction
+QID1358,Logical problems
+QID1445,course of action
+QID1446,course of action
+QID1267,Ranking Test
+QID2699,data-sufficiency
+QID2967,direction-sense-test
+Test5
+QID500,odd man out
+QID2800,series
+QID2801,series
+QID3010,analogy
+QID694,statement-and-assumption
+QID695,statement-and-assumption
+QID696,statement-and-assumption
+QID954,Verbal classification
+QID987,Matching definatins
+QID1017,Statement and conclusion
+QID1018,Statement and conclusion
+QID1606,Statement and argument
+QID1607,Statement and argument
+QID1132,Cause and effect
+QID1166,Logical deduction
+QID1167,Logical deduction
+QID1447,course of action
+QID1322,Artificial language
+QID2649,blood-relation-test
+QID2700,data-sufficiency
+Test6
+QID548,number-series
+QID2802,series
+QID2803,series
+QID621,analogies
+QID3011,analogy
+QID697,statement-and-assumption
+QID698,statement-and-assumption
+QID699,statement-and-assumption
+QID700,statement-and-assumption
+QID1019,Statement and conclusion
+QID1282,Essential part
+QID1345,Making judgements
+QID1608,Statement and argument
+QID1168,Logical deduction
+QID1359,Logical problems
+QID1448,course of action
+QID1449,course of action
+QID2616,syllogism
+QID2701,data-sufficiency
+QID2968,direction-sense-test
+Test7
+QID549,number-series
+QID2804,series
+QID2805,series
+QID2806,series
+QID2385,verbal-analogies
+QID701,statement-and-assumption
+QID702,statement-and-assumption
+QID703,statement-and-assumption
+QID1020,Statement and conclusion
+QID1413,analyzing agruments
+QID1580,theme detection
+QID1609,Statement and argument
+QID1610,Statement and argument
+QID1001,Verbal reasoning
+QID1133,Cause and effect
+QID1169,Logical deduction
+QID1450,course of action
+QID2650,blood-relation-test
+QID2702,data-sufficiency
+QID2703,data-sufficiency
+Test8
+QID550,number-series
+QID2807,series
+QID2808,series
+QID622,analogies
+QID3012,analogy
+QID704,statement-and-assumption
+QID705,statement-and-assumption
+QID706,statement-and-assumption
+QID955,Verbal classification
+QID1021,Statement and conclusion
+QID1022,Statement and conclusion
+QID1283,Essential part
+QID1611,Statement and argument
+QID1170,Logical deduction
+QID1360,Logical problems
+QID1451,course of action
+QID1452,course of action
+QID1323,Artificial language
+QID2704,data-sufficiency
+QID2969,direction-sense-test
+Test9
+QID551,number-series
+QID2809,series
+QID2810,series
+QID623,analogies
+QID3013,analogy
+QID707,statement-and-assumption
+QID708,statement-and-assumption
+QID709,statement-and-assumption
+QID988,Matching definatins
+QID1023,Statement and conclusion
+QID1414,analyzing agruments
+QID1612,Statement and argument
+QID1613,Statement and argument
+QID1134,Cause and effect
+QID1171,Logical deduction
+QID1172,Logical deduction
+QID1453,course of action
+QID2617,syllogism
+QID2651,blood-relation-test
+QID2705,data-sufficiency
+Test10
+QID501,odd man out
+QID2811,series
+QID2812,series
+QID624,analogies
+QID3014,analogy
+QID710,statement-and-assumption
+QID711,statement-and-assumption
+QID712,statement-and-assumption
+QID956,Verbal classification
+QID1024,Statement and conclusion
+QID1025,Statement and conclusion
+QID1284,Essential part
+QID1614,Statement and argument
+QID1173,Logical deduction
+QID1361,Logical problems
+QID1454,course of action
+QID1455,course of action
+QID1268,Ranking Test
+QID2706,data-sufficiency
+QID2970,direction-sense-test
+Test11
+QID552,number-series
+QID2813,series
+QID2814,series
+QID2386,verbal-analogies
+QID713,statement-and-assumption
+QID714,statement-and-assumption
+QID715,statement-and-assumption
+QID716,statement-and-assumption
+QID1026,Statement and conclusion
+QID1415,analyzing agruments
+QID1581,theme detection
+QID1615,Statement and argument
+QID1616,Statement and argument
+QID1135,Cause and effect
+QID1174,Logical deduction
+QID1362,Logical problems
+QID1456,course of action
+QID1324,Artificial language
+QID2652,blood-relation-test
+QID2707,data-sufficiency
+Test12
+QID553,number-series
+QID2815,series
+QID2816,series
+QID625,analogies
+QID3015,analogy
+QID717,statement-and-assumption
+QID718,statement-and-assumption
+QID719,statement-and-assumption
+QID957,Verbal classification
+QID1027,Statement and conclusion
+QID1028,Statement and conclusion
+QID1285,Essential part
+QID1617,Statement and argument
+QID1175,Logical deduction
+QID1176,Logical deduction
+QID1457,course of action
+QID1458,course of action
+QID2618,syllogism
+QID2708,data-sufficiency
+QID2971,direction-sense-test
+Test13
+QID554,number-series
+QID2817,series
+QID2818,series
+QID626,analogies
+QID3016,analogy
+QID720,statement-and-assumption
+QID721,statement-and-assumption
+QID722,statement-and-assumption
+QID989,Matching definatins
+QID1029,Statement and conclusion
+QID1346,Making judgements
+QID1618,Statement and argument
+QID1619,Statement and argument
+QID1136,Cause and effect
+QID1177,Logical deduction
+QID1363,Logical problems
+QID1459,course of action
+QID2653,blood-relation-test
+QID2709,data-sufficiency
+QID2710,data-sufficiency
+Test14
+QID502,odd man out
+QID555,number-series
+QID2819,series
+QID2820,series
+QID2387,verbal-analogies
+QID723,statement-and-assumption
+QID724,statement-and-assumption
+QID725,statement-and-assumption
+QID958,Verbal classification
+QID1030,Statement and conclusion
+QID1286,Essential part
+QID1416,analyzing agruments
+QID1620,Statement and argument
+QID1002,Verbal reasoning
+QID1178,Logical deduction
+QID1460,course of action
+QID1461,course of action
+QID1325,Artificial language
+QID2711,data-sufficiency
+QID2972,direction-sense-test
+Test15
+QID556,number-series
+QID2821,series
+QID2822,series
+QID627,analogies
+QID3017,analogy
+QID726,statement-and-assumption
+QID727,statement-and-assumption
+QID728,statement-and-assumption
+QID1031,Statement and conclusion
+QID1032,Statement and conclusion
+QID1582,theme detection
+QID1621,Statement and argument
+QID1622,Statement and argument
+QID1179,Logical deduction
+QID1180,Logical deduction
+QID1364,Logical problems
+QID1462,course of action
+QID2619,syllogism
+QID2654,blood-relation-test
+QID2712,data-sufficiency
+Test16
+QID557,number-series
+QID2823,series
+QID2824,series
+QID3018,analogy
+QID729,statement-and-assumption
+QID730,statement-and-assumption
+QID731,statement-and-assumption
+QID732,statement-and-assumption
+QID959,Verbal classification
+QID1033,Statement and conclusion
+QID1287,Essential part
+QID1623,Statement and argument
+QID1137,Cause and effect
+QID1181,Logical deduction
+QID1365,Logical problems
+QID1463,course of action
+QID1464,course of action
+QID1269,Ranking Test
+QID2713,data-sufficiency
+QID2973,direction-sense-test
+Test17
+QID558,number-series
+QID2825,series
+QID2826,series
+QID628,analogies
+QID3019,analogy
+QID733,statement-and-assumption
+QID734,statement-and-assumption
+QID735,statement-and-assumption
+QID1034,Statement and conclusion
+QID1035,Statement and conclusion
+QID1417,analyzing agruments
+QID1624,Statement and argument
+QID1625,Statement and argument
+QID1182,Logical deduction
+QID1183,Logical deduction
+QID1465,course of action
+QID1466,course of action
+QID1326,Artificial language
+QID2655,blood-relation-test
+QID2714,data-sufficiency
+Test18
+QID559,number-series
+QID2827,series
+QID2828,series
+QID2388,verbal-analogies
+QID736,statement-and-assumption
+QID737,statement-and-assumption
+QID738,statement-and-assumption
+QID960,Verbal classification
+QID990,Matching definatins
+QID1036,Statement and conclusion
+QID1288,Essential part
+QID1626,Statement and argument
+QID1627,Statement and argument
+QID1138,Cause and effect
+QID1184,Logical deduction
+QID1366,Logical problems
+QID1467,course of action
+QID2620,syllogism
+QID2715,data-sufficiency
+QID2974,direction-sense-test
+Test19
+QID560,number-series
+QID2829,series
+QID2830,series
+QID629,analogies
+QID3020,analogy
+QID739,statement-and-assumption
+QID740,statement-and-assumption
+QID741,statement-and-assumption
+QID742,statement-and-assumption
+QID1037,Statement and conclusion
+QID1038,Statement and conclusion
+QID1583,theme detection
+QID1628,Statement and argument
+QID1185,Logical deduction
+QID1367,Logical problems
+QID1468,course of action
+QID1469,course of action
+QID2656,blood-relation-test
+QID2716,data-sufficiency
+QID2717,data-sufficiency
+Test20
+QID503,odd man out
+QID2831,series
+QID2832,series
+QID630,analogies
+QID3021,analogy
+QID743,statement-and-assumption
+QID744,statement-and-assumption
+QID745,statement-and-assumption
+QID1039,Statement and conclusion
+QID1289,Essential part
+QID1418,analyzing agruments
+QID1629,Statement and argument
+QID1630,Statement and argument
+QID1139,Cause and effect
+QID1186,Logical deduction
+QID1187,Logical deduction
+QID1470,course of action
+QID1327,Artificial language
+QID2718,data-sufficiency
+QID2975,direction-sense-test
+Test21
+QID561,number-series
+QID562,number-series
+QID2833,series
+QID2834,series
+QID2389,verbal-analogies
+QID746,statement-and-assumption
+QID747,statement-and-assumption
+QID748,statement-and-assumption
+QID961,Verbal classification
+QID1040,Statement and conclusion
+QID1041,Statement and conclusion
+QID1347,Making judgements
+QID1631,Statement and argument
+QID1188,Logical deduction
+QID1368,Logical problems
+QID1471,course of action
+QID1472,course of action
+QID2621,syllogism
+QID2657,blood-relation-test
+QID2719,data-sufficiency
+Test22
+QID563,number-series
+QID2835,series
+QID2836,series
+QID631,analogies
+QID3022,analogy
+QID749,statement-and-assumption
+QID750,statement-and-assumption
+QID751,statement-and-assumption
+QID991,Matching definatins
+QID1042,Statement and conclusion
+QID1290,Essential part
+QID1632,Statement and argument
+QID1633,Statement and argument
+QID1003,Verbal reasoning
+QID1140,Cause and effect
+QID1189,Logical deduction
+QID1473,course of action
+QID1270,Ranking Test
+QID2720,data-sufficiency
+QID2976,direction-sense-test
+Test23
+QID564,number-series
+QID2837,series
+QID2838,series
+QID632,analogies
+QID3023,analogy
+QID752,statement-and-assumption
+QID753,statement-and-assumption
+QID754,statement-and-assumption
+QID962,Verbal classification
+QID1043,Statement and conclusion
+QID1419,analyzing agruments
+QID1584,theme detection
+QID1634,Statement and argument
+QID1190,Logical deduction
+QID1369,Logical problems
+QID1474,course of action
+QID1475,course of action
+QID1328,Artificial language
+QID2658,blood-relation-test
+QID2721,data-sufficiency
+Test24
+QID565,number-series
+QID2839,series
+QID2840,series
+QID2390,verbal-analogies
+QID755,statement-and-assumption
+QID756,statement-and-assumption
+QID757,statement-and-assumption
+QID758,statement-and-assumption
+QID1044,Statement and conclusion
+QID1045,Statement and conclusion
+QID1291,Essential part
+QID1635,Statement and argument
+QID1636,Statement and argument
+QID1141,Cause and effect
+QID1191,Logical deduction
+QID1192,Logical deduction
+QID1476,course of action
+QID2622,syllogism
+QID2722,data-sufficiency
+QID2977,direction-sense-test
+Test25
+QID504,odd man out
+QID2841,series
+QID2842,series
+QID633,analogies
+QID3024,analogy
+QID759,statement-and-assumption
+QID760,statement-and-assumption
+QID761,statement-and-assumption
+QID963,Verbal classification
+QID1046,Statement and conclusion
+QID1420,analyzing agruments
+QID1637,Statement and argument
+QID1638,Statement and argument
+QID1193,Logical deduction
+QID1370,Logical problems
+QID1477,course of action
+QID1478,course of action
+QID2659,blood-relation-test
+QID2723,data-sufficiency
+QID2724,data-sufficiency
+Test26
+QID566,number-series
+QID2843,series
+QID2844,series
+QID634,analogies
+QID3025,analogy
+QID762,statement-and-assumption
+QID763,statement-and-assumption
+QID764,statement-and-assumption
+QID1047,Statement and conclusion
+QID1048,Statement and conclusion
+QID1292,Essential part
+QID1639,Statement and argument
+QID1640,Statement and argument
+QID1142,Cause and effect
+QID1194,Logical deduction
+QID1371,Logical problems
+QID1479,course of action
+QID1329,Artificial language
+QID2725,data-sufficiency
+QID2978,direction-sense-test
+Test27
+QID567,number-series
+QID2845,series
+QID2846,series
+QID635,analogies
+QID3026,analogy
+QID765,statement-and-assumption
+QID766,statement-and-assumption
+QID767,statement-and-assumption
+QID964,Verbal classification
+QID992,Matching definatins
+QID1049,Statement and conclusion
+QID1585,theme detection
+QID1641,Statement and argument
+QID1195,Logical deduction
+QID1196,Logical deduction
+QID1480,course of action
+QID1481,course of action
+QID2623,syllogism
+QID2660,blood-relation-test
+QID2726,data-sufficiency
+Test28
+QID568,number-series
+QID2847,series
+QID2848,series
+QID2849,series
+QID2391,verbal-analogies
+QID768,statement-and-assumption
+QID769,statement-and-assumption
+QID770,statement-and-assumption
+QID1050,Statement and conclusion
+QID1293,Essential part
+QID1421,analyzing agruments
+QID1642,Statement and argument
+QID1643,Statement and argument
+QID1143,Cause and effect
+QID1197,Logical deduction
+QID1372,Logical problems
+QID1482,course of action
+QID1271,Ranking Test
+QID2727,data-sufficiency
+QID2979,direction-sense-test
+Test29
+QID569,number-series
+QID2850,series
+QID2851,series
+QID636,analogies
+QID3027,analogy
+QID771,statement-and-assumption
+QID772,statement-and-assumption
+QID773,statement-and-assumption
+QID774,statement-and-assumption
+QID1051,Statement and conclusion
+QID1052,Statement and conclusion
+QID1348,Making judgements
+QID1644,Statement and argument
+QID1004,Verbal reasoning
+QID1198,Logical deduction
+QID1483,course of action
+QID1484,course of action
+QID1330,Artificial language
+QID2661,blood-relation-test
+QID2728,data-sufficiency

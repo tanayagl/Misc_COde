@@ -1,0 +1,2015 @@
+Test0
+QID543,number-series
+QID2790,series
+QID2791,series
+QID617,analogies
+QID3005,analogy
+QID678,statement-and-assumption
+QID679,statement-and-assumption
+QID1010,Statement and conclusion
+QID1279,Essential part
+QID1597,Statement and argument
+QID1160,Logical deduction
+QID1355,Logical problems
+QID1439,course of action
+QID2646,blood-relation-test
+QID2695,data-sufficiency
+QID1,Sentence Correction
+QID99,Spotting Errors
+QID100,Spotting Errors
+QID101,Spotting Errors
+QID1743,Sentance improvement
+QID319,Antonyms
+QID391,Spellings
+QID1967,One word substitution
+QID2085,Synonyms
+QID2450,Idioms and phrases
+QID2451,Idioms and phrases
+QID1889,Ordering-of-sentances
+QID2189,Selecting words
+QID2190,Selecting words
+QID2417,Completing statement
+QID440,Problem on trains
+QID3347,stocks-and-shares
+QID3362,true-discount
+QID514,HCF & LCM
+QID3135,Numbers
+QID3136,Numbers
+QID3137,Numbers
+QID3138,Numbers
+QID3519,decimal-fraction
+QID3120,Volume and surface area
+QID3272,Simplification
+QID3302,Chain rule
+QID3564,ratio-and-proportion
+QID3392,time-and-work
+QID3456,clock
+Test1
+QID544,number-series
+QID2792,series
+QID3006,analogy
+QID680,statement-and-assumption
+QID681,statement-and-assumption
+QID952,Verbal classification
+QID1011,Statement and conclusion
+QID1598,Statement and argument
+QID1161,Logical deduction
+QID1356,Logical problems
+QID1440,course of action
+QID1441,course of action
+QID2614,syllogism
+QID2696,data-sufficiency
+QID2965,direction-sense-test
+QID2,Sentence Correction
+QID102,Spotting Errors
+QID103,Spotting Errors
+QID104,Spotting Errors
+QID1744,Sentance improvement
+QID320,Antonyms
+QID1968,One word substitution
+QID2086,Synonyms
+QID2452,Idioms and phrases
+QID2453,Idioms and phrases
+QID1841,Ordering-of-words
+QID1890,Ordering-of-sentances
+QID2066,Change of voice
+QID2191,Selecting words
+QID2192,Selecting words
+QID441,Problem on trains
+QID3317,boats-and-streams
+QID471,Calendar
+QID3412,compound-interest
+QID3139,Numbers
+QID3140,Numbers
+QID3141,Numbers
+QID3504,problems-on-numbers
+QID3081,Profit and loss
+QID3105,Average
+QID3475,area
+QID3287,surds-and-indices
+QID3579,pipes-and-cistern
+QID3332,logarithm
+QID3622,probability
+Test2
+QID545,number-series
+QID2793,series
+QID2794,series
+QID618,analogies
+QID3007,analogy
+QID682,statement-and-assumption
+QID683,statement-and-assumption
+QID1012,Statement and conclusion
+QID1280,Essential part
+QID1599,Statement and argument
+QID1130,Cause and effect
+QID1162,Logical deduction
+QID1442,course of action
+QID2647,blood-relation-test
+QID2697,data-sufficiency
+QID3,Sentence Correction
+QID105,Spotting Errors
+QID106,Spotting Errors
+QID107,Spotting Errors
+QID1745,Sentance improvement
+QID321,Antonyms
+QID392,Spellings
+QID1969,One word substitution
+QID2087,Synonyms
+QID2454,Idioms and phrases
+QID2455,Idioms and phrases
+QID1891,Ordering-of-sentances
+QID2193,Selecting words
+QID2194,Selecting words
+QID2418,Completing statement
+QID3377,time-and-distance
+QID486,Simple Interest
+QID3637,bankers-discount
+QID515,HCF & LCM
+QID3142,Numbers
+QID3143,Numbers
+QID3549,square-root-and-cube-root
+QID3520,decimal-fraction
+QID3441,problems-on-ages
+QID3427,partnership
+QID3594,alligation-or-mixture
+QID3393,time-and-work
+QID3457,clock
+QID3490,permutation-and-combination
+QID3609,races-and-games
+Test3
+QID546,number-series
+QID2795,series
+QID2384,verbal-analogies
+QID684,statement-and-assumption
+QID685,statement-and-assumption
+QID1013,Statement and conclusion
+QID1411,analyzing agruments
+QID1600,Statement and argument
+QID1163,Logical deduction
+QID1357,Logical problems
+QID1443,course of action
+QID1444,course of action
+QID1321,Artificial language
+QID2698,data-sufficiency
+QID2966,direction-sense-test
+QID4,Sentence Correction
+QID108,Spotting Errors
+QID109,Spotting Errors
+QID1746,Sentance improvement
+QID322,Antonyms
+QID1970,One word substitution
+QID2088,Synonyms
+QID2089,Synonyms
+QID2456,Idioms and phrases
+QID1842,Ordering-of-words
+QID1892,Ordering-of-sentances
+QID2195,Selecting words
+QID2196,Selecting words
+QID2197,Selecting words
+QID2597,Change of speech
+QID442,Problem on trains
+QID3318,boats-and-streams
+QID472,Calendar
+QID3348,stocks-and-shares
+QID516,HCF & LCM
+QID3144,Numbers
+QID3145,Numbers
+QID3146,Numbers
+QID3147,Numbers
+QID3082,Profit and loss
+QID3096,Percentage
+QID3106,Average
+QID3121,Volume and surface area
+QID3273,Simplification
+QID3303,Chain rule
+Test4
+QID547,number-series
+QID2796,series
+QID2797,series
+QID619,analogies
+QID3008,analogy
+QID686,statement-and-assumption
+QID687,statement-and-assumption
+QID953,Verbal classification
+QID1014,Statement and conclusion
+QID1601,Statement and argument
+QID1131,Cause and effect
+QID1164,Logical deduction
+QID1445,course of action
+QID2615,syllogism
+QID2648,blood-relation-test
+QID5,Sentence Correction
+QID110,Spotting Errors
+QID111,Spotting Errors
+QID112,Spotting Errors
+QID1747,Sentance improvement
+QID323,Antonyms
+QID393,Spellings
+QID1971,One word substitution
+QID2090,Synonyms
+QID2457,Idioms and phrases
+QID2458,Idioms and phrases
+QID1893,Ordering-of-sentances
+QID2198,Selecting words
+QID2199,Selecting words
+QID2402,Sentance formation
+QID443,Problem on trains
+QID3363,true-discount
+QID3413,compound-interest
+QID3148,Numbers
+QID3149,Numbers
+QID3150,Numbers
+QID3505,problems-on-numbers
+QID3521,decimal-fraction
+QID3288,surds-and-indices
+QID3565,ratio-and-proportion
+QID3580,pipes-and-cistern
+QID3333,logarithm
+QID3394,time-and-work
+QID3458,clock
+QID3623,probability
+Test5
+QID500,odd man out
+QID2798,series
+QID3009,analogy
+QID688,statement-and-assumption
+QID689,statement-and-assumption
+QID1015,Statement and conclusion
+QID1281,Essential part
+QID1602,Statement and argument
+QID1165,Logical deduction
+QID1358,Logical problems
+QID1446,course of action
+QID1447,course of action
+QID1267,Ranking Test
+QID2699,data-sufficiency
+QID2967,direction-sense-test
+QID6,Sentence Correction
+QID113,Spotting Errors
+QID114,Spotting Errors
+QID115,Spotting Errors
+QID1748,Sentance improvement
+QID324,Antonyms
+QID1972,One word substitution
+QID1973,One word substitution
+QID2091,Synonyms
+QID2459,Idioms and phrases
+QID1843,Ordering-of-words
+QID1894,Ordering-of-sentances
+QID2200,Selecting words
+QID2201,Selecting words
+QID2419,Completing statement
+QID444,Problem on trains
+QID3378,time-and-distance
+QID487,Simple Interest
+QID517,HCF & LCM
+QID3151,Numbers
+QID3152,Numbers
+QID3153,Numbers
+QID3550,square-root-and-cube-root
+QID3075,height-and-distance
+QID3107,Average
+QID3476,area
+QID3442,problems-on-ages
+QID3595,alligation-or-mixture
+QID3491,permutation-and-combination
+QID3610,races-and-games
+Test6
+QID548,number-series
+QID2799,series
+QID2800,series
+QID620,analogies
+QID3010,analogy
+QID690,statement-and-assumption
+QID691,statement-and-assumption
+QID1016,Statement and conclusion
+QID1579,theme detection
+QID1603,Statement and argument
+QID1001,Verbal reasoning
+QID1166,Logical deduction
+QID1448,course of action
+QID2649,blood-relation-test
+QID2700,data-sufficiency
+QID7,Sentence Correction
+QID116,Spotting Errors
+QID117,Spotting Errors
+QID118,Spotting Errors
+QID1749,Sentance improvement
+QID325,Antonyms
+QID394,Spellings
+QID1974,One word substitution
+QID2092,Synonyms
+QID2460,Idioms and phrases
+QID2461,Idioms and phrases
+QID1895,Ordering-of-sentances
+QID2067,Change of voice
+QID2202,Selecting words
+QID2203,Selecting words
+QID3319,boats-and-streams
+QID473,Calendar
+QID3349,stocks-and-shares
+QID3638,bankers-discount
+QID3154,Numbers
+QID3155,Numbers
+QID3156,Numbers
+QID3506,problems-on-numbers
+QID3083,Profit and loss
+QID3522,decimal-fraction
+QID3274,Simplification
+QID3304,Chain rule
+QID3428,partnership
+QID3395,time-and-work
+QID3459,clock
+Test7
+QID549,number-series
+QID2801,series
+QID2385,verbal-analogies
+QID692,statement-and-assumption
+QID693,statement-and-assumption
+QID1017,Statement and conclusion
+QID1412,analyzing agruments
+QID1604,Statement and argument
+QID1132,Cause and effect
+QID1167,Logical deduction
+QID1359,Logical problems
+QID1449,course of action
+QID1322,Artificial language
+QID2616,syllogism
+QID2701,data-sufficiency
+QID8,Sentence Correction
+QID119,Spotting Errors
+QID120,Spotting Errors
+QID1750,Sentance improvement
+QID326,Antonyms
+QID1975,One word substitution
+QID2093,Synonyms
+QID2094,Synonyms
+QID2462,Idioms and phrases
+QID1844,Ordering-of-words
+QID1896,Ordering-of-sentances
+QID2204,Selecting words
+QID2205,Selecting words
+QID2206,Selecting words
+QID2420,Completing statement
+QID445,Problem on trains
+QID3379,time-and-distance
+QID3364,true-discount
+QID518,HCF & LCM
+QID3157,Numbers
+QID3158,Numbers
+QID3159,Numbers
+QID3551,square-root-and-cube-root
+QID3097,Percentage
+QID3108,Average
+QID3122,Volume and surface area
+QID3289,surds-and-indices
+QID3566,ratio-and-proportion
+QID3334,logarithm
+QID3624,probability
+Test8
+QID550,number-series
+QID2802,series
+QID2803,series
+QID621,analogies
+QID3011,analogy
+QID694,statement-and-assumption
+QID695,statement-and-assumption
+QID954,Verbal classification
+QID1282,Essential part
+QID1605,Statement and argument
+QID1168,Logical deduction
+QID1450,course of action
+QID1451,course of action
+QID2650,blood-relation-test
+QID2968,direction-sense-test
+QID9,Sentence Correction
+QID121,Spotting Errors
+QID122,Spotting Errors
+QID123,Spotting Errors
+QID1751,Sentance improvement
+QID327,Antonyms
+QID395,Spellings
+QID1976,One word substitution
+QID2095,Synonyms
+QID2463,Idioms and phrases
+QID2464,Idioms and phrases
+QID1897,Ordering-of-sentances
+QID2207,Selecting words
+QID2208,Selecting words
+QID2598,Change of speech
+QID446,Problem on trains
+QID488,Simple Interest
+QID3414,compound-interest
+QID3160,Numbers
+QID3161,Numbers
+QID3162,Numbers
+QID3507,problems-on-numbers
+QID3523,decimal-fraction
+QID3443,problems-on-ages
+QID3581,pipes-and-cistern
+QID3596,alligation-or-mixture
+QID3396,time-and-work
+QID3460,clock
+QID3492,permutation-and-combination
+QID3611,races-and-games
+Test9
+QID551,number-series
+QID2804,series
+QID2805,series
+QID3012,analogy
+QID696,statement-and-assumption
+QID697,statement-and-assumption
+QID987,Matching definatins
+QID1018,Statement and conclusion
+QID1606,Statement and argument
+QID1169,Logical deduction
+QID1360,Logical problems
+QID1452,course of action
+QID1453,course of action
+QID2617,syllogism
+QID2702,data-sufficiency
+QID10,Sentence Correction
+QID124,Spotting Errors
+QID125,Spotting Errors
+QID126,Spotting Errors
+QID1752,Sentance improvement
+QID328,Antonyms
+QID1977,One word substitution
+QID1978,One word substitution
+QID2096,Synonyms
+QID2465,Idioms and phrases
+QID1845,Ordering-of-words
+QID1898,Ordering-of-sentances
+QID2209,Selecting words
+QID2210,Selecting words
+QID2403,Sentance formation
+QID447,Problem on trains
+QID3320,boats-and-streams
+QID474,Calendar
+QID3350,stocks-and-shares
+QID519,HCF & LCM
+QID3163,Numbers
+QID3164,Numbers
+QID3165,Numbers
+QID3552,square-root-and-cube-root
+QID3084,Profit and loss
+QID3109,Average
+QID3477,area
+QID3275,Simplification
+QID3305,Chain rule
+QID3335,logarithm
+Test10
+QID501,odd man out
+QID2806,series
+QID622,analogies
+QID3013,analogy
+QID698,statement-and-assumption
+QID699,statement-and-assumption
+QID1019,Statement and conclusion
+QID1345,Making judgements
+QID1607,Statement and argument
+QID1133,Cause and effect
+QID1170,Logical deduction
+QID1454,course of action
+QID2651,blood-relation-test
+QID2703,data-sufficiency
+QID2969,direction-sense-test
+QID11,Sentence Correction
+QID127,Spotting Errors
+QID128,Spotting Errors
+QID129,Spotting Errors
+QID1753,Sentance improvement
+QID329,Antonyms
+QID396,Spellings
+QID1979,One word substitution
+QID2097,Synonyms
+QID2466,Idioms and phrases
+QID2467,Idioms and phrases
+QID1899,Ordering-of-sentances
+QID2211,Selecting words
+QID2212,Selecting words
+QID2421,Completing statement
+QID3380,time-and-distance
+QID3365,true-discount
+QID3639,bankers-discount
+QID3166,Numbers
+QID3167,Numbers
+QID3168,Numbers
+QID3508,problems-on-numbers
+QID3076,height-and-distance
+QID3524,decimal-fraction
+QID3290,surds-and-indices
+QID3429,partnership
+QID3567,ratio-and-proportion
+QID3397,time-and-work
+QID3461,clock
+QID3625,probability
+Test11
+QID552,number-series
+QID2807,series
+QID2808,series
+QID2386,verbal-analogies
+QID700,statement-and-assumption
+QID701,statement-and-assumption
+QID1020,Statement and conclusion
+QID1283,Essential part
+QID1608,Statement and argument
+QID1171,Logical deduction
+QID1361,Logical problems
+QID1455,course of action
+QID1456,course of action
+QID1323,Artificial language
+QID2704,data-sufficiency
+QID12,Sentence Correction
+QID130,Spotting Errors
+QID131,Spotting Errors
+QID1754,Sentance improvement
+QID330,Antonyms
+QID1980,One word substitution
+QID2098,Synonyms
+QID2099,Synonyms
+QID2468,Idioms and phrases
+QID1846,Ordering-of-words
+QID1900,Ordering-of-sentances
+QID2068,Change of voice
+QID2213,Selecting words
+QID2214,Selecting words
+QID2215,Selecting words
+QID448,Problem on trains
+QID3321,boats-and-streams
+QID3415,compound-interest
+QID520,HCF & LCM
+QID3169,Numbers
+QID3170,Numbers
+QID3171,Numbers
+QID3553,square-root-and-cube-root
+QID3098,Percentage
+QID3110,Average
+QID3123,Volume and surface area
+QID3444,problems-on-ages
+QID3582,pipes-and-cistern
+QID3493,permutation-and-combination
+QID3612,races-and-games
+Test12
+QID553,number-series
+QID2809,series
+QID623,analogies
+QID3014,analogy
+QID702,statement-and-assumption
+QID703,statement-and-assumption
+QID955,Verbal classification
+QID1413,analyzing agruments
+QID1609,Statement and argument
+QID1134,Cause and effect
+QID1172,Logical deduction
+QID1457,course of action
+QID2618,syllogism
+QID2652,blood-relation-test
+QID2705,data-sufficiency
+QID13,Sentence Correction
+QID132,Spotting Errors
+QID133,Spotting Errors
+QID134,Spotting Errors
+QID1755,Sentance improvement
+QID331,Antonyms
+QID397,Spellings
+QID1981,One word substitution
+QID2100,Synonyms
+QID2469,Idioms and phrases
+QID2470,Idioms and phrases
+QID1901,Ordering-of-sentances
+QID2216,Selecting words
+QID2217,Selecting words
+QID2422,Completing statement
+QID449,Problem on trains
+QID475,Calendar
+QID489,Simple Interest
+QID3351,stocks-and-shares
+QID3172,Numbers
+QID3173,Numbers
+QID3174,Numbers
+QID3509,problems-on-numbers
+QID3085,Profit and loss
+QID3525,decimal-fraction
+QID3276,Simplification
+QID3306,Chain rule
+QID3597,alligation-or-mixture
+QID3336,logarithm
+QID3398,time-and-work
+Test13
+QID554,number-series
+QID2810,series
+QID2811,series
+QID3015,analogy
+QID704,statement-and-assumption
+QID705,statement-and-assumption
+QID1021,Statement and conclusion
+QID1580,theme detection
+QID1610,Statement and argument
+QID1173,Logical deduction
+QID1362,Logical problems
+QID1458,course of action
+QID1268,Ranking Test
+QID2706,data-sufficiency
+QID2970,direction-sense-test
+QID14,Sentence Correction
+QID135,Spotting Errors
+QID136,Spotting Errors
+QID137,Spotting Errors
+QID1756,Sentance improvement
+QID332,Antonyms
+QID1982,One word substitution
+QID1983,One word substitution
+QID2101,Synonyms
+QID2471,Idioms and phrases
+QID1847,Ordering-of-words
+QID1902,Ordering-of-sentances
+QID2218,Selecting words
+QID2219,Selecting words
+QID2599,Change of speech
+QID450,Problem on trains
+QID3381,time-and-distance
+QID3366,true-discount
+QID521,HCF & LCM
+QID3175,Numbers
+QID3176,Numbers
+QID3177,Numbers
+QID3554,square-root-and-cube-root
+QID3111,Average
+QID3478,area
+QID3291,surds-and-indices
+QID3430,partnership
+QID3568,ratio-and-proportion
+QID3462,clock
+QID3626,probability
+Test14
+QID555,number-series
+QID2812,series
+QID624,analogies
+QID3016,analogy
+QID706,statement-and-assumption
+QID707,statement-and-assumption
+QID1284,Essential part
+QID1611,Statement and argument
+QID1612,Statement and argument
+QID1002,Verbal reasoning
+QID1174,Logical deduction
+QID1459,course of action
+QID1460,course of action
+QID2653,blood-relation-test
+QID2707,data-sufficiency
+QID15,Sentence Correction
+QID138,Spotting Errors
+QID139,Spotting Errors
+QID140,Spotting Errors
+QID1757,Sentance improvement
+QID333,Antonyms
+QID398,Spellings
+QID1984,One word substitution
+QID2102,Synonyms
+QID2472,Idioms and phrases
+QID2473,Idioms and phrases
+QID1903,Ordering-of-sentances
+QID2220,Selecting words
+QID2221,Selecting words
+QID2404,Sentance formation
+QID3322,boats-and-streams
+QID476,Calendar
+QID3416,compound-interest
+QID3640,bankers-discount
+QID3178,Numbers
+QID3179,Numbers
+QID3180,Numbers
+QID3510,problems-on-numbers
+QID3086,Profit and loss
+QID3526,decimal-fraction
+QID3445,problems-on-ages
+QID3583,pipes-and-cistern
+QID3399,time-and-work
+QID3494,permutation-and-combination
+QID3613,races-and-games
+Test15
+QID556,number-series
+QID2813,series
+QID2814,series
+QID2387,verbal-analogies
+QID708,statement-and-assumption
+QID709,statement-and-assumption
+QID956,Verbal classification
+QID1022,Statement and conclusion
+QID1613,Statement and argument
+QID1175,Logical deduction
+QID1363,Logical problems
+QID1461,course of action
+QID1324,Artificial language
+QID2619,syllogism
+QID2708,data-sufficiency
+QID16,Sentence Correction
+QID141,Spotting Errors
+QID142,Spotting Errors
+QID1758,Sentance improvement
+QID334,Antonyms
+QID1985,One word substitution
+QID2103,Synonyms
+QID2104,Synonyms
+QID2474,Idioms and phrases
+QID1848,Ordering-of-words
+QID1904,Ordering-of-sentances
+QID2222,Selecting words
+QID2223,Selecting words
+QID2224,Selecting words
+QID2423,Completing statement
+QID451,Problem on trains
+QID3352,stocks-and-shares
+QID522,HCF & LCM
+QID3181,Numbers
+QID3182,Numbers
+QID3183,Numbers
+QID3555,square-root-and-cube-root
+QID3099,Percentage
+QID3112,Average
+QID3124,Volume and surface area
+QID3277,Simplification
+QID3307,Chain rule
+QID3598,alligation-or-mixture
+QID3337,logarithm
+QID3463,clock
+Test16
+QID502,odd man out
+QID2815,series
+QID625,analogies
+QID3017,analogy
+QID710,statement-and-assumption
+QID711,statement-and-assumption
+QID1023,Statement and conclusion
+QID1414,analyzing agruments
+QID1614,Statement and argument
+QID1135,Cause and effect
+QID1176,Logical deduction
+QID1462,course of action
+QID2654,blood-relation-test
+QID2709,data-sufficiency
+QID2971,direction-sense-test
+QID17,Sentence Correction
+QID143,Spotting Errors
+QID144,Spotting Errors
+QID145,Spotting Errors
+QID1759,Sentance improvement
+QID335,Antonyms
+QID399,Spellings
+QID1986,One word substitution
+QID2105,Synonyms
+QID2475,Idioms and phrases
+QID2476,Idioms and phrases
+QID1905,Ordering-of-sentances
+QID2069,Change of voice
+QID2225,Selecting words
+QID2226,Selecting words
+QID452,Problem on trains
+QID3382,time-and-distance
+QID477,Calendar
+QID490,Simple Interest
+QID3367,true-discount
+QID3184,Numbers
+QID3185,Numbers
+QID3186,Numbers
+QID3511,problems-on-numbers
+QID3077,height-and-distance
+QID3527,decimal-fraction
+QID3292,surds-and-indices
+QID3569,ratio-and-proportion
+QID3400,time-and-work
+QID3627,probability
+Test17
+QID557,number-series
+QID2816,series
+QID2817,series
+QID3018,analogy
+QID712,statement-and-assumption
+QID713,statement-and-assumption
+QID1024,Statement and conclusion
+QID1285,Essential part
+QID1615,Statement and argument
+QID1177,Logical deduction
+QID1364,Logical problems
+QID1463,course of action
+QID1464,course of action
+QID2620,syllogism
+QID2710,data-sufficiency
+QID18,Sentence Correction
+QID146,Spotting Errors
+QID147,Spotting Errors
+QID148,Spotting Errors
+QID1760,Sentance improvement
+QID336,Antonyms
+QID1987,One word substitution
+QID1988,One word substitution
+QID2106,Synonyms
+QID2477,Idioms and phrases
+QID1849,Ordering-of-words
+QID1906,Ordering-of-sentances
+QID2227,Selecting words
+QID2228,Selecting words
+QID2600,Change of speech
+QID3323,boats-and-streams
+QID3417,compound-interest
+QID523,HCF & LCM
+QID3187,Numbers
+QID3188,Numbers
+QID3189,Numbers
+QID3087,Profit and loss
+QID3113,Average
+QID3479,area
+QID3446,problems-on-ages
+QID3431,partnership
+QID3584,pipes-and-cistern
+QID3464,clock
+QID3495,permutation-and-combination
+QID3614,races-and-games
+Test18
+QID558,number-series
+QID2818,series
+QID626,analogies
+QID3019,analogy
+QID714,statement-and-assumption
+QID715,statement-and-assumption
+QID988,Matching definatins
+QID1025,Statement and conclusion
+QID1616,Statement and argument
+QID1136,Cause and effect
+QID1178,Logical deduction
+QID1465,course of action
+QID2655,blood-relation-test
+QID2711,data-sufficiency
+QID2972,direction-sense-test
+QID19,Sentence Correction
+QID149,Spotting Errors
+QID150,Spotting Errors
+QID151,Spotting Errors
+QID1761,Sentance improvement
+QID337,Antonyms
+QID400,Spellings
+QID1989,One word substitution
+QID2107,Synonyms
+QID2478,Idioms and phrases
+QID2479,Idioms and phrases
+QID1907,Ordering-of-sentances
+QID2229,Selecting words
+QID2230,Selecting words
+QID2424,Completing statement
+QID453,Problem on trains
+QID3383,time-and-distance
+QID478,Calendar
+QID3353,stocks-and-shares
+QID3641,bankers-discount
+QID524,HCF & LCM
+QID3190,Numbers
+QID3191,Numbers
+QID3192,Numbers
+QID3556,square-root-and-cube-root
+QID3528,decimal-fraction
+QID3278,Simplification
+QID3308,Chain rule
+QID3338,logarithm
+QID3401,time-and-work
+Test19
+QID559,number-series
+QID2819,series
+QID2820,series
+QID2388,verbal-analogies
+QID716,statement-and-assumption
+QID717,statement-and-assumption
+QID957,Verbal classification
+QID1026,Statement and conclusion
+QID1617,Statement and argument
+QID1179,Logical deduction
+QID1365,Logical problems
+QID1466,course of action
+QID1467,course of action
+QID1325,Artificial language
+QID2712,data-sufficiency
+QID20,Sentence Correction
+QID152,Spotting Errors
+QID153,Spotting Errors
+QID1762,Sentance improvement
+QID338,Antonyms
+QID1990,One word substitution
+QID2108,Synonyms
+QID2109,Synonyms
+QID2480,Idioms and phrases
+QID1850,Ordering-of-words
+QID1908,Ordering-of-sentances
+QID2231,Selecting words
+QID2232,Selecting words
+QID2233,Selecting words
+QID2405,Sentance formation
+QID454,Problem on trains
+QID3368,true-discount
+QID3193,Numbers
+QID3194,Numbers
+QID3195,Numbers
+QID3512,problems-on-numbers
+QID3088,Profit and loss
+QID3100,Percentage
+QID3114,Average
+QID3125,Volume and surface area
+QID3293,surds-and-indices
+QID3570,ratio-and-proportion
+QID3599,alligation-or-mixture
+QID3465,clock
+QID3628,probability
+Test20
+QID560,number-series
+QID2821,series
+QID627,analogies
+QID3020,analogy
+QID718,statement-and-assumption
+QID719,statement-and-assumption
+QID1286,Essential part
+QID1581,theme detection
+QID1618,Statement and argument
+QID1137,Cause and effect
+QID1180,Logical deduction
+QID1468,course of action
+QID2621,syllogism
+QID2656,blood-relation-test
+QID2713,data-sufficiency
+QID21,Sentence Correction
+QID154,Spotting Errors
+QID155,Spotting Errors
+QID156,Spotting Errors
+QID1763,Sentance improvement
+QID339,Antonyms
+QID401,Spellings
+QID1991,One word substitution
+QID2110,Synonyms
+QID2481,Idioms and phrases
+QID2482,Idioms and phrases
+QID1909,Ordering-of-sentances
+QID2070,Change of voice
+QID2234,Selecting words
+QID2235,Selecting words
+QID455,Problem on trains
+QID3324,boats-and-streams
+QID491,Simple Interest
+QID3418,compound-interest
+QID525,HCF & LCM
+QID3196,Numbers
+QID3197,Numbers
+QID3198,Numbers
+QID3557,square-root-and-cube-root
+QID3529,decimal-fraction
+QID3447,problems-on-ages
+QID3585,pipes-and-cistern
+QID3402,time-and-work
+QID3496,permutation-and-combination
+QID3615,races-and-games
+Test21
+QID561,number-series
+QID2822,series
+QID2823,series
+QID3021,analogy
+QID720,statement-and-assumption
+QID721,statement-and-assumption
+QID1027,Statement and conclusion
+QID1415,analyzing agruments
+QID1619,Statement and argument
+QID1181,Logical deduction
+QID1366,Logical problems
+QID1469,course of action
+QID1269,Ranking Test
+QID2714,data-sufficiency
+QID2973,direction-sense-test
+QID22,Sentence Correction
+QID157,Spotting Errors
+QID158,Spotting Errors
+QID159,Spotting Errors
+QID1764,Sentance improvement
+QID340,Antonyms
+QID1992,One word substitution
+QID1993,One word substitution
+QID2111,Synonyms
+QID2483,Idioms and phrases
+QID1851,Ordering-of-words
+QID1910,Ordering-of-sentances
+QID2236,Selecting words
+QID2237,Selecting words
+QID2425,Completing statement
+QID3384,time-and-distance
+QID479,Calendar
+QID3354,stocks-and-shares
+QID3199,Numbers
+QID3200,Numbers
+QID3201,Numbers
+QID3513,problems-on-numbers
+QID3078,height-and-distance
+QID3115,Average
+QID3480,area
+QID3279,Simplification
+QID3309,Chain rule
+QID3432,partnership
+QID3339,logarithm
+QID3466,clock
+Test22
+QID503,odd man out
+QID2824,series
+QID628,analogies
+QID3022,analogy
+QID722,statement-and-assumption
+QID723,statement-and-assumption
+QID1028,Statement and conclusion
+QID1346,Making judgements
+QID1620,Statement and argument
+QID1003,Verbal reasoning
+QID1182,Logical deduction
+QID1470,course of action
+QID1471,course of action
+QID2657,blood-relation-test
+QID2715,data-sufficiency
+QID23,Sentence Correction
+QID160,Spotting Errors
+QID161,Spotting Errors
+QID162,Spotting Errors
+QID1765,Sentance improvement
+QID341,Antonyms
+QID402,Spellings
+QID1994,One word substitution
+QID2112,Synonyms
+QID2484,Idioms and phrases
+QID2485,Idioms and phrases
+QID1911,Ordering-of-sentances
+QID2238,Selecting words
+QID2239,Selecting words
+QID2601,Change of speech
+QID456,Problem on trains
+QID3325,boats-and-streams
+QID3369,true-discount
+QID3642,bankers-discount
+QID526,HCF & LCM
+QID3202,Numbers
+QID3203,Numbers
+QID3204,Numbers
+QID3558,square-root-and-cube-root
+QID3089,Profit and loss
+QID3530,decimal-fraction
+QID3294,surds-and-indices
+QID3571,ratio-and-proportion
+QID3403,time-and-work
+QID3629,probability
+Test23
+QID562,number-series
+QID2825,series
+QID2826,series
+QID2389,verbal-analogies
+QID724,statement-and-assumption
+QID725,statement-and-assumption
+QID958,Verbal classification
+QID1287,Essential part
+QID1621,Statement and argument
+QID1183,Logical deduction
+QID1367,Logical problems
+QID1472,course of action
+QID1326,Artificial language
+QID2622,syllogism
+QID2716,data-sufficiency
+QID24,Sentence Correction
+QID163,Spotting Errors
+QID164,Spotting Errors
+QID1766,Sentance improvement
+QID342,Antonyms
+QID1995,One word substitution
+QID2113,Synonyms
+QID2114,Synonyms
+QID2486,Idioms and phrases
+QID1852,Ordering-of-words
+QID1912,Ordering-of-sentances
+QID2240,Selecting words
+QID2241,Selecting words
+QID2242,Selecting words
+QID2426,Completing statement
+QID457,Problem on trains
+QID3419,compound-interest
+QID3205,Numbers
+QID3206,Numbers
+QID3207,Numbers
+QID3514,problems-on-numbers
+QID3101,Percentage
+QID3116,Average
+QID3126,Volume and surface area
+QID3448,problems-on-ages
+QID3586,pipes-and-cistern
+QID3600,alligation-or-mixture
+QID3467,clock
+QID3497,permutation-and-combination
+QID3616,races-and-games
+Test24
+QID563,number-series
+QID2827,series
+QID629,analogies
+QID3023,analogy
+QID726,statement-and-assumption
+QID727,statement-and-assumption
+QID1029,Statement and conclusion
+QID1622,Statement and argument
+QID1623,Statement and argument
+QID1138,Cause and effect
+QID1184,Logical deduction
+QID1473,course of action
+QID2658,blood-relation-test
+QID2717,data-sufficiency
+QID2974,direction-sense-test
+QID25,Sentence Correction
+QID165,Spotting Errors
+QID166,Spotting Errors
+QID167,Spotting Errors
+QID1767,Sentance improvement
+QID343,Antonyms
+QID403,Spellings
+QID1996,One word substitution
+QID2115,Synonyms
+QID2487,Idioms and phrases
+QID2488,Idioms and phrases
+QID1913,Ordering-of-sentances
+QID2071,Change of voice
+QID2243,Selecting words
+QID2244,Selecting words
+QID458,Problem on trains
+QID3385,time-and-distance
+QID480,Calendar
+QID492,Simple Interest
+QID3355,stocks-and-shares
+QID527,HCF & LCM
+QID3208,Numbers
+QID3209,Numbers
+QID3210,Numbers
+QID3559,square-root-and-cube-root
+QID3531,decimal-fraction
+QID3280,Simplification
+QID3310,Chain rule
+QID3340,logarithm
+QID3404,time-and-work
+Test25
+QID564,number-series
+QID2828,series
+QID2829,series
+QID3024,analogy
+QID728,statement-and-assumption
+QID729,statement-and-assumption
+QID1030,Statement and conclusion
+QID1416,analyzing agruments
+QID1624,Statement and argument
+QID1185,Logical deduction
+QID1368,Logical problems
+QID1474,course of action
+QID1475,course of action
+QID2718,data-sufficiency
+QID3002,seating-arrangement
+QID26,Sentence Correction
+QID168,Spotting Errors
+QID169,Spotting Errors
+QID170,Spotting Errors
+QID1768,Sentance improvement
+QID344,Antonyms
+QID1997,One word substitution
+QID1998,One word substitution
+QID2116,Synonyms
+QID2489,Idioms and phrases
+QID1853,Ordering-of-words
+QID1914,Ordering-of-sentances
+QID2245,Selecting words
+QID2246,Selecting words
+QID2406,Sentance formation
+QID3326,boats-and-streams
+QID3370,true-discount
+QID3211,Numbers
+QID3212,Numbers
+QID3213,Numbers
+QID3515,problems-on-numbers
+QID3090,Profit and loss
+QID3117,Average
+QID3481,area
+QID3295,surds-and-indices
+QID3433,partnership
+QID3572,ratio-and-proportion
+QID3468,clock
+QID3498,permutation-and-combination
+QID3630,probability
+Test26
+QID565,number-series
+QID2830,series
+QID630,analogies
+QID3025,analogy
+QID730,statement-and-assumption
+QID731,statement-and-assumption
+QID1031,Statement and conclusion
+QID1288,Essential part
+QID1625,Statement and argument
+QID1139,Cause and effect
+QID1186,Logical deduction
+QID1476,course of action
+QID2623,syllogism
+QID2659,blood-relation-test
+QID2719,data-sufficiency
+QID27,Sentence Correction
+QID171,Spotting Errors
+QID172,Spotting Errors
+QID173,Spotting Errors
+QID1769,Sentance improvement
+QID345,Antonyms
+QID404,Spellings
+QID1999,One word substitution
+QID2117,Synonyms
+QID2490,Idioms and phrases
+QID2491,Idioms and phrases
+QID1915,Ordering-of-sentances
+QID2247,Selecting words
+QID2248,Selecting words
+QID2427,Completing statement
+QID459,Problem on trains
+QID3386,time-and-distance
+QID481,Calendar
+QID3420,compound-interest
+QID3643,bankers-discount
+QID528,HCF & LCM
+QID3214,Numbers
+QID3215,Numbers
+QID3216,Numbers
+QID3560,square-root-and-cube-root
+QID3532,decimal-fraction
+QID3449,problems-on-ages
+QID3587,pipes-and-cistern
+QID3405,time-and-work
+QID3617,races-and-games
+Test27
+QID566,number-series
+QID2831,series
+QID2832,series
+QID2390,verbal-analogies
+QID732,statement-and-assumption
+QID733,statement-and-assumption
+QID959,Verbal classification
+QID1582,theme detection
+QID1626,Statement and argument
+QID1187,Logical deduction
+QID1369,Logical problems
+QID1477,course of action
+QID1327,Artificial language
+QID2720,data-sufficiency
+QID2975,direction-sense-test
+QID28,Sentence Correction
+QID174,Spotting Errors
+QID175,Spotting Errors
+QID1770,Sentance improvement
+QID346,Antonyms
+QID2000,One word substitution
+QID2118,Synonyms
+QID2119,Synonyms
+QID2492,Idioms and phrases
+QID1854,Ordering-of-words
+QID1916,Ordering-of-sentances
+QID2249,Selecting words
+QID2250,Selecting words
+QID2251,Selecting words
+QID2602,Change of speech
+QID460,Problem on trains
+QID3356,stocks-and-shares
+QID3217,Numbers
+QID3218,Numbers
+QID3219,Numbers
+QID3516,problems-on-numbers
+QID3079,height-and-distance
+QID3102,Percentage
+QID3118,Average
+QID3127,Volume and surface area
+QID3281,Simplification
+QID3311,Chain rule
+QID3601,alligation-or-mixture
+QID3341,logarithm
+QID3469,clock
+Test28
+QID504,odd man out
+QID2833,series
+QID631,analogies
+QID3026,analogy
+QID734,statement-and-assumption
+QID735,statement-and-assumption
+QID989,Matching definatins
+QID1032,Statement and conclusion
+QID1627,Statement and argument
+QID1188,Logical deduction
+QID1370,Logical problems
+QID1478,course of action
+QID1479,course of action
+QID2660,blood-relation-test
+QID2721,data-sufficiency
+QID29,Sentence Correction
+QID176,Spotting Errors
+QID177,Spotting Errors
+QID178,Spotting Errors
+QID1771,Sentance improvement
+QID347,Antonyms
+QID405,Spellings
+QID2001,One word substitution
+QID2120,Synonyms
+QID2493,Idioms and phrases
+QID2494,Idioms and phrases
+QID1917,Ordering-of-sentances
+QID2072,Change of voice
+QID2252,Selecting words
+QID2253,Selecting words
+QID3327,boats-and-streams
+QID493,Simple Interest
+QID3371,true-discount
+QID529,HCF & LCM
+QID3220,Numbers
+QID3221,Numbers
+QID3222,Numbers
+QID3561,square-root-and-cube-root
+QID3091,Profit and loss
+QID3533,decimal-fraction
+QID3296,surds-and-indices
+QID3573,ratio-and-proportion
+QID3406,time-and-work
+QID3499,permutation-and-combination
+QID3631,probability
+Test29
+QID567,number-series
+QID2834,series
+QID2835,series
+QID3027,analogy
+QID736,statement-and-assumption
+QID737,statement-and-assumption
+QID1033,Statement and conclusion
+QID1289,Essential part
+QID1628,Statement and argument
+QID1140,Cause and effect
+QID1189,Logical deduction
+QID1480,course of action
+QID1270,Ranking Test
+QID2624,syllogism
+QID2722,data-sufficiency
+QID30,Sentence Correction
+QID179,Spotting Errors
+QID180,Spotting Errors
+QID181,Spotting Errors
+QID1772,Sentance improvement
+QID348,Antonyms
+QID2002,One word substitution
+QID2003,One word substitution
+QID2121,Synonyms
+QID2495,Idioms and phrases
+QID1855,Ordering-of-words
+QID1918,Ordering-of-sentances
+QID2254,Selecting words
+QID2255,Selecting words
+QID2428,Completing statement
+QID461,Problem on trains
+QID3387,time-and-distance
+QID482,Calendar
+QID3421,compound-interest
+QID3223,Numbers
+QID3224,Numbers
+QID3225,Numbers
+QID3517,problems-on-numbers
+QID3119,Average
+QID3482,area
+QID3450,problems-on-ages
+QID3434,partnership
+QID3588,pipes-and-cistern
+QID3470,clock
+QID3618,races-and-games
+Test30
+QID568,number-series
+QID2836,series
+QID632,analogies
+QID3028,analogy
+QID738,statement-and-assumption
+QID739,statement-and-assumption
+QID1034,Statement and conclusion
+QID1417,analyzing agruments
+QID1629,Statement and argument
+QID1190,Logical deduction
+QID1371,Logical problems
+QID1481,course of action
+QID2661,blood-relation-test
+QID2723,data-sufficiency
+QID2976,direction-sense-test
+QID31,Sentence Correction
+QID182,Spotting Errors
+QID183,Spotting Errors
+QID184,Spotting Errors
+QID1773,Sentance improvement
+QID349,Antonyms
+QID406,Spellings
+QID2004,One word substitution
+QID2122,Synonyms
+QID2496,Idioms and phrases
+QID2497,Idioms and phrases
+QID1919,Ordering-of-sentances
+QID2256,Selecting words
+QID2257,Selecting words
+QID2407,Sentance formation
+QID462,Problem on trains
+QID3357,stocks-and-shares
+QID3644,bankers-discount
+QID530,HCF & LCM
+QID3226,Numbers
+QID3227,Numbers
+QID3228,Numbers
+QID3562,square-root-and-cube-root
+QID3092,Profit and loss
+QID3534,decimal-fraction
+QID3128,Volume and surface area
+QID3282,Simplification
+QID3312,Chain rule
+QID3342,logarithm
+QID3407,time-and-work
+Test31
+QID569,number-series
+QID2837,series
+QID2838,series
+QID2391,verbal-analogies
+QID740,statement-and-assumption
+QID741,statement-and-assumption
+QID960,Verbal classification
+QID1035,Statement and conclusion
+QID1630,Statement and argument
+QID1004,Verbal reasoning
+QID1191,Logical deduction
+QID1482,course of action
+QID1483,course of action
+QID1328,Artificial language
+QID2724,data-sufficiency
+QID32,Sentence Correction
+QID185,Spotting Errors
+QID186,Spotting Errors
+QID1774,Sentance improvement
+QID350,Antonyms
+QID2005,One word substitution
+QID2123,Synonyms
+QID2124,Synonyms
+QID2498,Idioms and phrases
+QID1856,Ordering-of-words
+QID1920,Ordering-of-sentances
+QID2258,Selecting words
+QID2259,Selecting words
+QID2260,Selecting words
+QID2429,Completing statement
+QID463,Problem on trains
+QID3328,boats-and-streams
+QID3372,true-discount
+QID3229,Numbers
+QID3230,Numbers
+QID3231,Numbers
+QID3518,problems-on-numbers
+QID3103,Percentage
+QID3297,surds-and-indices
+QID3574,ratio-and-proportion
+QID3602,alligation-or-mixture
+QID3471,clock
+QID3500,permutation-and-combination
+QID3632,probability
+Test32
+QID570,number-series
+QID2839,series
+QID633,analogies
+QID3029,analogy
+QID742,statement-and-assumption
+QID743,statement-and-assumption
+QID1036,Statement and conclusion
+QID1290,Essential part
+QID1631,Statement and argument
+QID1192,Logical deduction
+QID1372,Logical problems
+QID1484,course of action
+QID2625,syllogism
+QID2662,blood-relation-test
+QID2725,data-sufficiency
+QID33,Sentence Correction
+QID187,Spotting Errors
+QID188,Spotting Errors
+QID189,Spotting Errors
+QID1775,Sentance improvement
+QID351,Antonyms
+QID407,Spellings
+QID2006,One word substitution
+QID2125,Synonyms
+QID2499,Idioms and phrases
+QID2500,Idioms and phrases
+QID1921,Ordering-of-sentances
+QID2261,Selecting words
+QID2262,Selecting words
+QID2603,Change of speech
+QID3388,time-and-distance
+QID483,Calendar
+QID494,Simple Interest
+QID3422,compound-interest
+QID531,HCF & LCM
+QID3232,Numbers
+QID3233,Numbers
+QID3234,Numbers
+QID3563,square-root-and-cube-root
+QID3535,decimal-fraction
+QID3483,area
+QID3451,problems-on-ages
+QID3589,pipes-and-cistern
+QID3408,time-and-work
+QID3619,races-and-games
+Test33
+QID571,number-series
+QID2840,series
+QID2841,series
+QID3030,analogy
+QID744,statement-and-assumption
+QID745,statement-and-assumption
+QID1037,Statement and conclusion
+QID1347,Making judgements
+QID1632,Statement and argument
+QID1141,Cause and effect
+QID1193,Logical deduction
+QID1485,course of action
+QID1486,course of action
+QID2726,data-sufficiency
+QID2977,direction-sense-test
+QID34,Sentence Correction
+QID190,Spotting Errors
+QID191,Spotting Errors
+QID192,Spotting Errors
+QID1776,Sentance improvement
+QID352,Antonyms
+QID2007,One word substitution
+QID2008,One word substitution
+QID2126,Synonyms
+QID2501,Idioms and phrases
+QID1857,Ordering-of-words
+QID1922,Ordering-of-sentances
+QID2073,Change of voice
+QID2263,Selecting words
+QID2264,Selecting words
+QID464,Problem on trains
+QID3329,boats-and-streams
+QID3358,stocks-and-shares
+QID3235,Numbers
+QID3236,Numbers
+QID3237,Numbers
+QID3080,height-and-distance
+QID3093,Profit and loss
+QID3283,Simplification
+QID3313,Chain rule
+QID3435,partnership
+QID3343,logarithm
+QID3472,clock
+Test34
+QID505,odd man out
+QID2842,series
+QID634,analogies
+QID3031,analogy
+QID746,statement-and-assumption
+QID747,statement-and-assumption
+QID1038,Statement and conclusion
+QID1583,theme detection
+QID1633,Statement and argument
+QID1194,Logical deduction
+QID1373,Logical problems
+QID1487,course of action
+QID1329,Artificial language
+QID2663,blood-relation-test
+QID2727,data-sufficiency
+QID35,Sentence Correction
+QID193,Spotting Errors
+QID194,Spotting Errors
+QID195,Spotting Errors
+QID1777,Sentance improvement
+QID353,Antonyms
+QID408,Spellings
+QID2009,One word substitution
+QID2127,Synonyms
+QID2502,Idioms and phrases
+QID2503,Idioms and phrases
+QID1923,Ordering-of-sentances
+QID2265,Selecting words
+QID2266,Selecting words
+QID2430,Completing statement
+QID465,Problem on trains
+QID3373,true-discount
+QID3645,bankers-discount
+QID532,HCF & LCM
+QID3238,Numbers
+QID3239,Numbers
+QID3240,Numbers
+QID3536,decimal-fraction
+QID3129,Volume and surface area
+QID3298,surds-and-indices
+QID3575,ratio-and-proportion
+QID3409,time-and-work
+QID3501,permutation-and-combination
+QID3633,probability
+Test35
+QID572,number-series
+QID2843,series
+QID2844,series
+QID2392,verbal-analogies
+QID748,statement-and-assumption
+QID749,statement-and-assumption
+QID961,Verbal classification
+QID1418,analyzing agruments
+QID1634,Statement and argument
+QID1195,Logical deduction
+QID1374,Logical problems
+QID1488,course of action
+QID1489,course of action
+QID2626,syllogism
+QID2728,data-sufficiency
+QID36,Sentence Correction
+QID196,Spotting Errors
+QID197,Spotting Errors
+QID1778,Sentance improvement
+QID354,Antonyms
+QID2010,One word substitution
+QID2128,Synonyms
+QID2129,Synonyms
+QID2504,Idioms and phrases
+QID1858,Ordering-of-words
+QID1924,Ordering-of-sentances
+QID2267,Selecting words
+QID2268,Selecting words
+QID2269,Selecting words
+QID2408,Sentance formation
+QID466,Problem on trains
+QID3389,time-and-distance
+QID484,Calendar
+QID3423,compound-interest
+QID3241,Numbers
+QID3242,Numbers
+QID3243,Numbers
+QID3104,Percentage
+QID3452,problems-on-ages
+QID3590,pipes-and-cistern
+QID3603,alligation-or-mixture
+QID3473,clock
+QID3620,races-and-games
+Test36
+QID573,number-series
+QID2845,series
+QID635,analogies
+QID3032,analogy
+QID750,statement-and-assumption
+QID751,statement-and-assumption
+QID1039,Statement and conclusion
+QID1291,Essential part
+QID1635,Statement and argument
+QID1142,Cause and effect
+QID1196,Logical deduction
+QID1490,course of action
+QID2664,blood-relation-test
+QID2729,data-sufficiency
+QID2978,direction-sense-test
+QID37,Sentence Correction
+QID198,Spotting Errors
+QID199,Spotting Errors
+QID200,Spotting Errors
+QID1779,Sentance improvement
+QID355,Antonyms
+QID409,Spellings
+QID2011,One word substitution
+QID2130,Synonyms
+QID2505,Idioms and phrases
+QID2506,Idioms and phrases
+QID1925,Ordering-of-sentances
+QID2270,Selecting words
+QID2271,Selecting words
+QID2431,Completing statement
+QID3330,boats-and-streams
+QID495,Simple Interest
+QID3359,stocks-and-shares
+QID533,HCF & LCM
+QID3244,Numbers
+QID3245,Numbers
+QID3246,Numbers
+QID3094,Profit and loss
+QID3537,decimal-fraction
+QID3484,area
+QID3284,Simplification
+QID3314,Chain rule
+QID3344,logarithm
+QID3410,time-and-work
+Test37
+QID574,number-series
+QID2846,series
+QID2847,series
+QID3033,analogy
+QID752,statement-and-assumption
+QID753,statement-and-assumption
+QID990,Matching definatins
+QID1040,Statement and conclusion
+QID1636,Statement and argument
+QID1197,Logical deduction
+QID1375,Logical problems
+QID1491,course of action
+QID1492,course of action
+QID1271,Ranking Test
+QID2730,data-sufficiency
+QID38,Sentence Correction
+QID201,Spotting Errors
+QID202,Spotting Errors
+QID203,Spotting Errors
+QID1780,Sentance improvement
+QID356,Antonyms
+QID2012,One word substitution
+QID2013,One word substitution
+QID2131,Synonyms
+QID2507,Idioms and phrases
+QID1859,Ordering-of-words
+QID1926,Ordering-of-sentances
+QID2272,Selecting words
+QID2273,Selecting words
+QID2604,Change of speech
+QID467,Problem on trains
+QID3390,time-and-distance
+QID485,Calendar
+QID3374,true-discount
+QID3247,Numbers
+QID3248,Numbers
+QID3249,Numbers
+QID3299,surds-and-indices
+QID3436,partnership
+QID3576,ratio-and-proportion
+QID3474,clock
+QID3502,permutation-and-combination
+QID3634,probability
+Test38
+QID575,number-series
+QID2848,series
+QID636,analogies
+QID3034,analogy
+QID754,statement-and-assumption
+QID755,statement-and-assumption
+QID1041,Statement and conclusion
+QID1637,Statement and argument
+QID1638,Statement and argument
+QID1005,Verbal reasoning
+QID1198,Logical deduction
+QID1493,course of action
+QID1330,Artificial language
+QID2627,syllogism
+QID2665,blood-relation-test
+QID39,Sentence Correction
+QID204,Spotting Errors
+QID205,Spotting Errors
+QID206,Spotting Errors
+QID1781,Sentance improvement
+QID357,Antonyms
+QID410,Spellings
+QID2014,One word substitution
+QID2132,Synonyms
+QID2508,Idioms and phrases
+QID2509,Idioms and phrases
+QID1927,Ordering-of-sentances
+QID2074,Change of voice
+QID2274,Selecting words
+QID2275,Selecting words
+QID468,Problem on trains
+QID3424,compound-interest
+QID3646,bankers-discount
+QID534,HCF & LCM
+QID3250,Numbers
+QID3251,Numbers
+QID3252,Numbers
+QID3538,decimal-fraction
+QID3130,Volume and surface area
+QID3453,problems-on-ages
+QID3591,pipes-and-cistern
+QID3411,time-and-work
+QID3621,races-and-games
+Test39
+QID576,number-series
+QID2849,series
+QID2850,series
+QID2393,verbal-analogies
+QID756,statement-and-assumption
+QID757,statement-and-assumption
+QID962,Verbal classification
+QID1292,Essential part
+QID1639,Statement and argument
+QID1143,Cause and effect
+QID1199,Logical deduction
+QID1376,Logical problems
+QID1494,course of action
+QID2731,data-sufficiency
+QID2979,direction-sense-test
+QID40,Sentence Correction
+QID207,Spotting Errors
+QID208,Spotting Errors
+QID1782,Sentance improvement
+QID358,Antonyms
+QID2015,One word substitution
+QID2133,Synonyms
+QID2134,Synonyms
+QID2510,Idioms and phrases
+QID1860,Ordering-of-words
+QID1928,Ordering-of-sentances
+QID2276,Selecting words
+QID2277,Selecting words
+QID2278,Selecting words
+QID2432,Completing statement
+QID469,Problem on trains
+QID3331,boats-and-streams
+QID3360,stocks-and-shares
+QID3253,Numbers
+QID3254,Numbers
+QID3255,Numbers
+QID3095,Profit and loss
+QID3285,Simplification
+QID3315,Chain rule
+QID3604,alligation-or-mixture
+QID3345,logarithm
+Test40
+QID506,odd man out
+QID2851,series
+QID637,analogies
+QID3035,analogy
+QID758,statement-and-assumption
+QID759,statement-and-assumption
+QID1042,Statement and conclusion
+QID1419,analyzing agruments
+QID1640,Statement and argument
+QID1200,Logical deduction
+QID1495,course of action
+QID1496,course of action
+QID2628,syllogism
+QID2666,blood-relation-test
+QID2732,data-sufficiency
+QID41,Sentence Correction
+QID209,Spotting Errors
+QID210,Spotting Errors
+QID211,Spotting Errors
+QID1783,Sentance improvement
+QID359,Antonyms
+QID411,Spellings
+QID2016,One word substitution
+QID2135,Synonyms
+QID2511,Idioms and phrases
+QID2512,Idioms and phrases
+QID1929,Ordering-of-sentances
+QID2279,Selecting words
+QID2280,Selecting words
+QID2409,Sentance formation
+QID3391,time-and-distance
+QID496,Simple Interest
+QID3375,true-discount
+QID535,HCF & LCM
+QID3256,Numbers
+QID3257,Numbers
+QID3258,Numbers
+QID3539,decimal-fraction
+QID3485,area
+QID3300,surds-and-indices
+QID3577,ratio-and-proportion
+QID3503,permutation-and-combination
+QID3635,probability
+Test41
+QID577,number-series
+QID2852,series
+QID2853,series
+QID3036,analogy
+QID760,statement-and-assumption
+QID761,statement-and-assumption
+QID1043,Statement and conclusion
+QID1584,theme detection
+QID1641,Statement and argument
+QID1201,Logical deduction
+QID1377,Logical problems
+QID1497,course of action
+QID1498,course of action
+QID2733,data-sufficiency
+QID2980,direction-sense-test
+QID42,Sentence Correction
+QID212,Spotting Errors
+QID213,Spotting Errors
+QID214,Spotting Errors
+QID1784,Sentance improvement
+QID360,Antonyms
+QID2017,One word substitution
+QID2018,One word substitution
+QID2136,Synonyms
+QID2513,Idioms and phrases
+QID1861,Ordering-of-words
+QID1930,Ordering-of-sentances
+QID2281,Selecting words
+QID2282,Selecting words
+QID2605,Change of speech
+QID470,Problem on trains
+QID3425,compound-interest
+QID536,HCF & LCM
+QID3259,Numbers
+QID3260,Numbers
+QID3261,Numbers
+QID3454,problems-on-ages
+QID3437,partnership
+QID3592,pipes-and-cistern
+Test42
+QID578,number-series
+QID2854,series
+QID638,analogies
+QID3037,analogy
+QID762,statement-and-assumption
+QID763,statement-and-assumption
+QID1044,Statement and conclusion
+QID1293,Essential part
+QID1642,Statement and argument
+QID1144,Cause and effect
+QID1202,Logical deduction
+QID1499,course of action
+QID1331,Artificial language
+QID2667,blood-relation-test
+QID2734,data-sufficiency
+QID43,Sentence Correction
+QID215,Spotting Errors
+QID216,Spotting Errors
+QID217,Spotting Errors
+QID1785,Sentance improvement
+QID361,Antonyms
+QID412,Spellings
+QID2019,One word substitution
+QID2137,Synonyms
+QID2514,Idioms and phrases
+QID2515,Idioms and phrases
+QID1931,Ordering-of-sentances
+QID2283,Selecting words
+QID2284,Selecting words
+QID2433,Completing statement
+QID3361,stocks-and-shares
+QID3647,bankers-discount
+QID3262,Numbers
+QID3263,Numbers
+QID3264,Numbers
+QID3540,decimal-fraction
+QID3131,Volume and surface area
+QID3286,Simplification
+QID3301,surds-and-indices
+QID3316,Chain rule
+QID3346,logarithm
+Test43
+QID579,number-series
+QID2855,series
+QID2856,series
+QID2394,verbal-analogies
+QID764,statement-and-assumption
+QID765,statement-and-assumption
+QID963,Verbal classification
+QID1045,Statement and conclusion
+QID1643,Statement and argument
+QID1203,Logical deduction
+QID1378,Logical problems
+QID1500,course of action
+QID1501,course of action
+QID2629,syllogism
+QID2735,data-sufficiency
+QID44,Sentence Correction
+QID218,Spotting Errors
+QID219,Spotting Errors
+QID1786,Sentance improvement
+QID362,Antonyms
+QID2020,One word substitution
+QID2138,Synonyms
+QID2139,Synonyms
+QID2516,Idioms and phrases
+QID1862,Ordering-of-words
+QID1932,Ordering-of-sentances
+QID2075,Change of voice
+QID2285,Selecting words
+QID2286,Selecting words
+QID2287,Selecting words
+QID3376,true-discount
+QID537,HCF & LCM
+QID3265,Numbers
+QID3266,Numbers
+QID3267,Numbers
+QID3455,problems-on-ages
+QID3578,ratio-and-proportion
+QID3605,alligation-or-mixture
+QID3636,probability
+Test44
+QID580,number-series
+QID2857,series
+QID639,analogies
+QID3038,analogy
+QID766,statement-and-assumption
+QID767,statement-and-assumption
+QID1046,Statement and conclusion
+QID1420,analyzing agruments
+QID1644,Statement and argument
+QID1145,Cause and effect
+QID1204,Logical deduction
+QID1502,course of action
+QID2668,blood-relation-test
+QID2736,data-sufficiency
+QID2981,direction-sense-test
+QID45,Sentence Correction
+QID220,Spotting Errors
+QID221,Spotting Errors
+QID222,Spotting Errors
+QID1787,Sentance improvement
+QID363,Antonyms
+QID413,Spellings
+QID2021,One word substitution

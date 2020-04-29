@@ -3,13 +3,14 @@ import math
 import time
 import sys
 
-def get_limits(path):
+def get_limits(path,input_question_distribution):
     excel = open(path,"r")
     dict_topic_limits ={}
     lines=excel.readlines()
     for line in lines:
         columns = line.split(',')
-        dict_topic_limits[columns[1].strip('[""""]')]={"assessment":columns[0].strip(),"Lower_limit":int(columns[2].strip()),"Upper_limit":int(columns[3].strip())}
+        dict_topic_limits[columns[1].strip('[""""]')]={"assessment":columns[0].strip(),"Lower_limit":int(columns[2].strip())*input_question_distribution[columns[0].strip()]/20,"Upper_limit":int(columns[3].strip())*input_question_distribution[columns[0].strip()]/20}
+
     return dict_topic_limits
 
 def check_limits(topic_floor,topic_decimal,dict_topic_limits,total_questions,dict_topic_count):
@@ -41,14 +42,6 @@ def max_limit_reached_stats(cross_limit,topic_floor,topic_decimal,topic_limits,t
     for topic in cross_limit:
         updated_topic_count.pop(topic)
         total_questions = total_questions - topic_limits[topic]["Upper_limit"]
-    #for topic in updated_topic_count:
-    #    updated_sum_tag[topic] = sum(dict_topic_count[topic].values())
-    # for topic in update_limit:
-    #     for tag in dict_topic_count[topic]:
-    #         if topic in updated_sum_tag:
-    #             updated_sum_tag[topic] = updated_sum_tag[topic] + dict_topic_count[topic][tag]
-    #         else:
-    #             updated_sum_tag[topic] =dict_topic_count[topic][tag]
     update_question_count = sum(updated_topic_count.values())
     # for topic in cross_limit:
     #     update_question_count = update_question_count - updated_sum_tag[topic]
@@ -136,7 +129,7 @@ def brahmastra(topic_decimal, topic_floor,assessment,total_questions):
         ques_sum = topic_floor[i]+ques_sum
     remaining_question = total_questions-ques_sum
     count = 0
-    for i in range(0,remaining_question):
+    for i in range(0,int(remaining_question)):
         topic = max(decimal_bucket[assessment], key=decimal_bucket[assessment].get)
         topic_question_distribution[topic] = topic_question_distribution[topic] + 1 
         decimal_bucket[assessment][topic] = 0 if topic_decimal[topic] - 1 < 0 else topic_decimal[topic] - 1 
@@ -162,9 +155,10 @@ def export_question(fw,question_distribution,qb_header):
                 
 assessment_areas = ["Logical Reasoning/ Data Interpretation","Verbal Ability","Quantitative Aptitude"]
 # question_bank = get_question_bank("C:/Users/hp/Desktop/MyCodes/python codes/test_maker/QB.csv")
-topic_limits=get_limits("C:/Users/hp/Desktop/MyCodes/python codes/test_maker/limitss.csv")
 
-input_question_distribution = { assessment_areas[0]: 15, assessment_areas[1] : 30,assessment_areas[2]: 20}
+
+input_question_distribution = {"Logical Reasoning/ Data Interpretation": 20, "Verbal Ability": 0,"Quantitative Aptitude": 0}
+topic_limits=get_limits("C:/Users/hp/Desktop/MyCodes/python codes/test_maker/limitss.csv",input_question_distribution)
 status = -1
 test_count = 0
 Filename = "Export"+str(time.time()) 
@@ -178,7 +172,7 @@ st_decimal = {}
 dict_topic_st_count = {}
 st_question_distribution = {}
 dict_parent_child_count = {}
-
+total_test=30
 
 question_bank = get_question_bank("QB.csv")
 dict_assessment_topic_count = get_child_count(question_bank,input_question_distribution.keys(),"assessment","topic")
@@ -190,7 +184,7 @@ for assessment in input_question_distribution :
     if not status == 0:
         break
 if status == 0:
-    while(1==1):
+    for i in range(total_test):
         fw.write(str("Test")+str(test_count)+"\n")
         test_count+=1
         for assessment in input_question_distribution:
@@ -203,8 +197,8 @@ if status == 0:
             if status==-1:
                 break
         if(status ==-1):
-            print("Test Distributed. Test "+Filename)
             break
+    print("Test Distributed. Test "+Filename +"\n total test created are "+str(test_count))
 else:
     print("Test cannot be Distributed. Question less than lower limit")
 fw.close()
