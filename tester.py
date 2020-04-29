@@ -14,6 +14,7 @@ def get_limits(path):
 
 def check_limits(topic_floor,topic_decimal,dict_topic_limits,total_questions,dict_topic_count):
     print(dict_topic_limits)
+    status = 0
     limit_fails=[]
     cross_limit={}
     for key in dict_topic_count:
@@ -26,13 +27,16 @@ def check_limits(topic_floor,topic_decimal,dict_topic_limits,total_questions,dic
                 cross_limit[key]= topic_floor[key]
                 #topic_floor[key]=dict_topic_limits[key]["Upper_limit"]
     if bool(cross_limit):
-        topic_floor,topic_decimal = max_limit_reached_stats(cross_limit,topic_floor,topic_decimal,topic_limits,total_questions,dict_topic_count)
+        status,topic_floor,topic_decimal = max_limit_reached_stats(cross_limit,topic_floor,topic_decimal,topic_limits,total_questions,dict_topic_count)
+    if status == -1:
+        return -1,cross_limit,topic_decimal
     return 0,topic_floor,topic_decimal
 
 def max_limit_reached_stats(cross_limit,topic_floor,topic_decimal,topic_limits,total_questions,dict_topic_count):
     update_limit = topic_floor.copy()
     update_question_count = 0
     updated_sum_tag = {}
+    status=0
     updated_topic_count = dict_topic_count.copy()
     for topic in cross_limit:
         updated_topic_count.pop(topic)
@@ -61,9 +65,11 @@ def max_limit_reached_stats(cross_limit,topic_floor,topic_decimal,topic_limits,t
         topic_decimal[topic] = 0.00
     if(bool(updated_topic_count)):
         status,update_limit,topic_decimal = check_limits(update_limit,topic_decimal,topic_limits,total_questions,updated_topic_count)
-    if(not total_questions == 0):
+    if( total_questions > 0 and update_question_count==0):
         print("Humse na ho paaye")
-    return update_limit,topic_decimal
+        status = -1
+        return status,update_limit,topic_decimal
+    return status,update_limit,topic_decimal
 
 def get_question_bank(path):
     excel = open(path,"r")
